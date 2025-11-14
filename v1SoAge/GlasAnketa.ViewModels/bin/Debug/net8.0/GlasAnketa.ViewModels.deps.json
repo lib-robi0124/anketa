@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GlasAnketa.ViewModels/1.0.0": {
+        "dependencies": {
+          "GlasAnketa.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GlasAnketa.ViewModels.dll": {}
+        }
+      },
+      "GlasAnketa.Domain/1.0.0": {
+        "runtime": {
+          "GlasAnketa.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GlasAnketa.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlasAnketa.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

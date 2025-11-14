@@ -1,0 +1,487 @@
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\appsettings.Development.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\appsettings.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.runtime.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.endpoints.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.exe
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.deps.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.runtimeconfig.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\AutoMapper.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Azure.Core.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Azure.Identity.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Humanizer.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.ClientModel.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.CodeDom.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Memory.Data.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.AssemblyReference.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfoInputs.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfo.cs
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.CoreCompileInputs.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.MvcApplicationPartsAssemblyInfo.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cs
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.sourcelink.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\scopedcss\bundle\GlasAnketa.styles.css
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\scopedcss\projectbundle\GlasAnketa.bundle.scp.css
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\staticwebassets.development.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.Up2Date
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\refint\GlasAnketa.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\GlasAnketa.genruntimeconfig.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa\obj\Debug\net8.0\ref\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\appsettings.Development.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\appsettings.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.endpoints.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.runtime.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.exe
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.deps.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.runtimeconfig.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\AutoMapper.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Azure.Core.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Azure.Identity.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Humanizer.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.ClientModel.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.CodeDom.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Memory.Data.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.AssemblyReference.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.GeneratedMSBuildEditorConfig.editorconfig
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfoInputs.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfo.cs
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.CoreCompileInputs.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.MvcApplicationPartsAssemblyInfo.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cs
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\scopedcss\bundle\GlasAnketa.styles.css
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\scopedcss\projectbundle\GlasAnketa.bundle.scp.css
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\staticwebassets.development.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.Up2Date
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\refint\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\GlasAnketa.genruntimeconfig.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa\obj\Debug\net8.0\ref\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.exe
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\AutoMapper.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Azure.Core.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Azure.Identity.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Humanizer.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.Auth.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Exchange.WebServices.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.ClientModel.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.CodeDom.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Memory.Data.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.DataAccess.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Services.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.AssemblyReference.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.GeneratedMSBuildEditorConfig.editorconfig
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfoInputs.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.AssemblyInfo.cs
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.CoreCompileInputs.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.MvcApplicationPartsAssemblyInfo.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.RazorAssemblyInfo.cs
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\scopedcss\bundle\GlasAnketa.styles.css
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\scopedcss\projectbundle\GlasAnketa.bundle.scp.css
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\staticwebassets.development.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\refint\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\appsettings.Development.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\appsettings.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.runtime.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.staticwebassets.endpoints.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.deps.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.runtimeconfig.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\bin\Debug\net8.0\GlasAnketa.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.csproj.Up2Date
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\GlasAnketa.genruntimeconfig.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\ref\GlasAnketa.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
