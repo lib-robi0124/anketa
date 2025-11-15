@@ -1,0 +1,67 @@
+@model GlasAnketa.ViewModels.Models.UserVM
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<h2>Edit User</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="EditUser" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="CompanyId" class="form-label"></label>
+        <input asp-for="CompanyId" class="form-control" />
+        <span asp-validation-for="CompanyId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OU" class="form-label"></label>
+        <input asp-for="OU" class="form-control" />
+        <span asp-validation-for="OU" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OU2" class="form-label"></label>
+        <input asp-for="OU2" class="form-control" />
+        <span asp-validation-for="OU2" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Role</label>
+        <select class="form-select" name="selectedRoleId" asp-items="(IEnumerable<SelectListItem>)ViewBag.Roles"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Age" class="form-label"></label>
+        <input asp-for="Age" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="WorkExperience" class="form-label"></label>
+        <input asp-for="WorkExperience" class="form-control" />
+        <span asp-validation-for="WorkExperience" class="text-danger"></span>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label asp-for="IsActive" class="form-check-label">Active</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="ManageUsers" class="btn btn-secondary">Cancel</a>
+</form>

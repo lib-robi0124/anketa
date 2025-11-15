@@ -1,0 +1,207 @@
+﻿@model ResultsVM
+@{
+    ViewData["Title"] = "View Results";
+}
+<link rel="stylesheet" href="~/css/viewresults.css" asp-append-version="true" />
+<div class="admin-container">
+    <div class="admin-header">
+        <h1>📊 View Results</h1>
+        <p>Survey results and analytics</p>
+        <div class="user-info">
+            <small>Logged in as: <strong>@Context.Session.GetString("UserName")</strong></small> |
+            <a href="@Url.Action("Index", "Admin")" class="btn btn-secondary">← Back to Dashboard</a> |
+            <a href="@Url.Action("Logout", "Account")" class="text-danger">Logout</a>
+        </div>
+    </div>
+
+    <div class="alert alert-info">
+        <h4>📈 Results Dashboard</h4>
+        <p>View and analyze survey responses:</p>
+        <ul>
+            <li>Response rates and statistics</li>
+            <li>Individual answer details</li>
+            <li>Analytics and trends</li>
+            <li>Export to CSV</li>
+        </ul>
+    </div>
+
+    <div class="admin-content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>Form Selection</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="ViewResults" method="get" class="row g-2 align-items-end">
+                            <div class="col-md-8">
+                                <label class="form-label">Select Questionnaire Form:</label>
+                                <select class="form-select" name="formId" asp-items="@(ViewBag.Forms as SelectList)"></select>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary w-100">Load Results</button>
+                            </div>
+                        </form>
+                        @if (ViewBag.SelectedFormId != null)
+                        {
+                            <div class="mt-2">
+                                <a asp-action="ExportResults" asp-route-formId="@ViewBag.SelectedFormId" class="btn btn-outline-success btn-sm">Export CSV</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h3>Quick Stats</h3>
+                    </div>
+                    <div class="card-body">
+                        @{
+                            var scaleAnswers = Model?.Answers?.Where(a => a.ScaleValue.HasValue).ToList() ?? new List<AnswerVM>();
+                            var totalResponses = scaleAnswers.Count;
+                            var totalScale = scaleAnswers.Sum(a => a.ScaleValue ?? 0);
+                            var avgScale = totalResponses > 0 ? (totalScale / (double)totalResponses) : 0;
+                            var companyIds = (Model?.Answers ?? new List<AnswerVM>()).Select(a => a.CompanyId).Distinct().ToList();
+                        }
+                        <div class="stat-item mb-2">
+                            <h4>Total Scale Responses</h4>
+                            <div class="stat-number">@totalResponses</div>
+                        </div>
+                        <div class="stat-item mb-2">
+                            <h4>Average Scale Value (Sum / Responses)</h4>
+                            <div class="stat-number">@avgScale.ToString("0.00")</div>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Companies Responded</h4>
+                            @if (companyIds.Any())
+                            {
+                                <div class="stat-number small">@string.Join(", ", companyIds)</div>
+                            }
+                            else
+                            {
+                                <div class="text-muted">No responses yet</div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Per-Question Statistics</h3>
+            </div>
+            <div class="card-body">
+                @if (Model?.Summaries != null && Model.Summaries.Any())
+                {
+                    <table class="table table-sm table-striped">
+                        <thead>
+                            <tr>
+                                <th>Question</th>
+                                <th>Type</th>
+                                <th>Responses</th>
+                                <th>Average Scale (Sum / Responses)</th>
+                                <th>Distribution (Scale → Count)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var kvp in Model.Summaries)
+                            {
+                                var s = kvp.Value;
+                                <tr>
+                                    <td>@s.QuestionText</td>
+                                    <td>@s.QuestionType</td>
+                                    <td>@s.ResponseCount</td>
+                                    <td>
+                                        @if (string.Equals(s.QuestionType, "Scale", System.StringComparison.OrdinalIgnoreCase) && s.ResponseCount > 0)
+                                        {
+                                            @s.AverageScaleValue.ToString("0.00")
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">n/a</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (s.ScaleValueDistribution != null && s.ScaleValueDistribution.Any())
+                                        {
+                                            <span class="small">
+                                                @string.Join(", ", s.ScaleValueDistribution.OrderBy(d => d.Key).Select(d => $"{d.Key}: {d.Value}"))
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted small">n/a</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <div class="text-muted">No summary data available for this form.</div>
+                }
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h3>Individual Responses</h3>
+            </div>
+            <div class="card-body">
+                @if (Model?.Answers != null && Model.Answers.Any())
+                {
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>CompanyId</th>
+                                <th>Question</th>
+                                <th>Answer</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var answer in Model.Answers)
+                            {
+                                Model.Summaries.TryGetValue(answer.QuestionId, out var summary);
+                                <tr>
+                                    <td>User @answer.UserId</td>
+                                    <td>@answer.CompanyId</td>
+                                    <td>@(summary?.QuestionText ?? $"Question {answer.QuestionId}")</td>
+                                    <td>
+                                        @if (answer.ScaleValue.HasValue)
+                                        {
+                                            <span>Scale: @answer.ScaleValue</span>
+                                        }
+                                        else if (!string.IsNullOrEmpty(answer.TextValue))
+                                        {
+                                            <span>Text: @answer.TextValue</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">No answer</span>
+                                        }
+                                    </td>
+                                    <td>@answer.AnsweredDate.ToString("MMM dd, yyyy")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <div class="text-center py-4">
+                        <div style="font-size: 3em;">📭</div>
+                        <h4>No Responses Yet</h4>
+                        <p class="text-muted">Survey responses will appear here once employees start submitting their answers.</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

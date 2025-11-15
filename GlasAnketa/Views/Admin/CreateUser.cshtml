@@ -1,0 +1,68 @@
+@model GlasAnketa.ViewModels.Models.RegisterUserVM
+@{
+    ViewData["Title"] = "Create User";
+    var userRole = Context.Session.GetString("UserRole");
+    var isAdmin = string.Equals(userRole, "Administrator", StringComparison.OrdinalIgnoreCase);
+}
+
+<h2>Create New User</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="CreateUser" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label asp-for="CompanyId" class="form-label"></label>
+        <input asp-for="CompanyId" class="form-control" />
+        <span asp-validation-for="CompanyId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OU" class="form-label"></label>
+        <input asp-for="OU" class="form-control" />
+        <span asp-validation-for="OU" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OU2" class="form-label"></label>
+        <input asp-for="OU2" class="form-control" />
+        <span asp-validation-for="OU2" class="text-danger"></span>
+    </div>
+
+    @if (isAdmin)
+    {
+        <div class="mb-3">
+            <label class="form-label">Role</label>
+            <select class="form-select" name="selectedRoleId"
+                    asp-items="@(new SelectList((IEnumerable<SelectListItem>)ViewBag.Roles, "Value", "Text"))"></select>
+        </div>
+    }
+    else
+    {
+        <!-- Managers cannot change role; default to Employee -->
+        <input type="hidden" name="selectedRoleId" value="2" />
+        <div class="mb-3">
+            <label class="form-label">Role</label>
+            <input class="form-control" value="Employee" disabled />
+        </div>
+    }
+
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="ManageUsers" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,76 @@
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.deps.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.AssemblyReference.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfoInputs.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfo.cs
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.CoreCompileInputs.cache
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.sourcelink.json
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnke.0062D992.Up2Date
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\qinshift\practiseMVC\DobraAnketaUpdate\GlasAnketaForma\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.deps.json
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.AssemblyReference.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfoInputs.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfo.cs
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.CoreCompileInputs.cache
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnke.0062D992.Up2Date
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnik - AIdps\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.deps.json
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.AssemblyReference.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfoInputs.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfo.cs
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.CoreCompileInputs.cache
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnke.0062D992.Up2Date
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
+D:\proekt-office\anketa\prasalnikKineska\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.deps.json
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.dll
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.AssemblyReference.cache
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfoInputs.cache
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfo.cs
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.CoreCompileInputs.cache
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnke.0062D992.Up2Date
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
+C:\qinshift\anketa\v2soManagers\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.deps.json
+C:\qinshift\anketa\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.ViewModels.pdb
+C:\qinshift\anketa\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.AssemblyReference.cache
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfoInputs.cache
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.AssemblyInfo.cs
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.csproj.CoreCompileInputs.cache
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnke.0062D992.Up2Date
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
