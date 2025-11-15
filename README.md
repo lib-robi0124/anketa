@@ -1,2 +1,0 @@
-# anketa
-employee satisfaction survey
