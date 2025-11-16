@@ -64,4 +64,16 @@ C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\refint\GlasAnketa.Domain.d
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.pdb
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.genruntimeconfig.cache
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\ref\GlasAnketa.Domain.dll
-C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.sourcelink.json
+C:\officeApps\anketa\GlasAnketa.Domain\bin\Debug\net8.0\GlasAnketa.Domain.deps.json
+C:\officeApps\anketa\GlasAnketa.Domain\bin\Debug\net8.0\GlasAnketa.Domain.runtimeconfig.json
+C:\officeApps\anketa\GlasAnketa.Domain\bin\Debug\net8.0\GlasAnketa.Domain.dll
+C:\officeApps\anketa\GlasAnketa.Domain\bin\Debug\net8.0\GlasAnketa.Domain.pdb
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.AssemblyInfoInputs.cache
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.AssemblyInfo.cs
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.csproj.CoreCompileInputs.cache
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.dll
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\refint\GlasAnketa.Domain.dll
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.pdb
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.genruntimeconfig.cache
+C:\officeApps\anketa\GlasAnketa.Domain\obj\Debug\net8.0\ref\GlasAnketa.Domain.dll

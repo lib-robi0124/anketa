@@ -11,5 +11,10 @@ namespace GlasAnketa.DataAccess.Interfaces
         Task<Answer> GetUserAnswerForQuestionAsync(int userId, int questionId, int questionFormId);
         Task SaveAnswersAsync(List<Answer> answers);
         Task<Dictionary<int, AnswerSummary>> GetAnswerSummariesAsync(int formId);
+
+        /// <summary>
+        /// Returns distinct user IDs that have at least one answer recorded.
+        /// </summary>
+        Task<List<int>> GetUserIdsWithAnyAnswersAsync();
     }
 }

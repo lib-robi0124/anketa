@@ -51,21 +51,46 @@ namespace GlasAnketa.Services.Implementations
 
                 var report = questions.Select(q =>
                 {
-                    var scaleAnswers = q.Answers?.Where(a => a.ScaleValue.HasValue).ToList() ?? new List<Answer>();
-                    var totalResponses = scaleAnswers.Count;
+                    var allAnswers = q.Answers?.ToList() ?? new List<Answer>();
+
+                    var scaleAnswers = allAnswers.Where(a => a.ScaleValue.HasValue).ToList();
+                    var textAnswers = allAnswers
+                        .Where(a => !string.IsNullOrWhiteSpace(a.TextValue))
+                        .ToList();
+
+                    var totalResponses = allAnswers.Count;
                     var totalScale = scaleAnswers.Sum(a => a.ScaleValue.GetValueOrDefault());
-                    var avg = totalResponses > 0 ? scaleAnswers.Average(a => (double)a.ScaleValue.GetValueOrDefault()) : 0;
-                    var companyIds = scaleAnswers.Select(a => a.CompanyId).Distinct().OrderBy(x => x).ToList();
+                    var avg = scaleAnswers.Any()
+                        ? scaleAnswers.Average(a => (double)a.ScaleValue.GetValueOrDefault())
+                        : 0;
+
+                    var companyIds = allAnswers
+                        .Select(a => a.CompanyId)
+                        .Distinct()
+                        .OrderBy(x => x)
+                        .ToList();
+
+                    var sampleTexts = textAnswers
+                        .Select(a => a.TextValue!)
+                        .Where(t => !string.IsNullOrWhiteSpace(t))
+                        .Distinct()
+                        .Take(5)
+                        .ToList();
+
+                    var sampleTextJoined = string.Join(" | ", sampleTexts);
 
                     return new QuestionReportVM
                     {
                         QuestionId = q.Id,
                         QuestionText = q.Text ?? "No Question Text",
+                        QuestionFormId = q.QuestionFormId,
                         FormTitle = q.QuestionForm?.Title ?? "No Form Title",
                         TotalResponses = totalResponses,
                         TotalScaleValue = totalScale,
                         AverageScaleValue = avg,
-                        CompanyIdList = string.Join(", ", companyIds)
+                        CompanyIdList = string.Join(", ", companyIds),
+                        TextResponseCount = textAnswers.Count,
+                        SampleTextResponses = sampleTextJoined
                     };
                 }).ToList();
 

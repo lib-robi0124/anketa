@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ohcO6wf03I=",
+  "dgSpecHash": "ksiYys7KMTY=",
   "success": true,
-  "projectFilePath": "C:\\qinshift\\anketa\\GlasAnketa.Services\\GlasAnketa.Services.csproj",
+  "projectFilePath": "C:\\officeApps\\anketa\\GlasAnketa.Services\\GlasAnketa.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

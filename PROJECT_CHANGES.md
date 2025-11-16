@@ -401,3 +401,142 @@ The following changes were applied across the project to improve login feedback 
   - Buckets show non-zero `TotalResponses` when `Answers.Age > 0` exists.
   - `AverageScaleValue = Sum(ScaleValue where present) / TotalResponses`.
 - Work Experience Reports show values per bucket when data exists.
+
+---
+
+# Changes Made
+Date: 2025-11-16
+
+## 1) User Management: Admin & Manager Roles
+
+### Admin capabilities
+- View all users, create new users, edit existing users, activate/deactivate users, and reset passwords via `AdminController`.
+- `ManageUsers` view lists all users with role and active status.
+- `EditUser` uses a role dropdown and `IsActive` checkbox; `ToggleUserActive` and `ResetUserPassword` actions are restricted to administrators.
+
+### Manager capabilities
+- Managers can only create new users; they cannot view the full user list or edit/deactivate/reset users.
+- `ManagerController.ManageUsers()` redirects to `AdminController.CreateUser`.
+- In `AdminController.CreateUser` (POST), managers are forced to create **Employee** users:
+  - `effectiveRoleId = isAdmin ? selectedRoleId : 2;`.
+  - Role name is derived from `effectiveRoleId` before calling `_userService.RegisterUser`.
+
+### Views
+- `GlasAnketa/Views/Admin/CreateUser.cshtml`:
+  - Admins see a role dropdown (Administrator/Employee/Manager).
+  - Managers see a fixed, disabled "Employee" role with a hidden `selectedRoleId = 2` field.
+
+## 2) Manager Dashboard Shortcuts
+
+### Requirement
+- Give Managers fast access to management screens while keeping admin-only operations protected.
+
+### Implementation
+- `GlasAnketa/Controllers/ManagerController.cs`:
+  - `ManageQuestions()` → redirects to `Admin.ManageQuestions`.
+  - `ManageForms()` → redirects to `Admin.ManageForms`.
+  - `ManageUsers()` → redirects to `Admin.CreateUser` (create-only access).
+- `GlasAnketa/Views/Manager/Index.cshtml`:
+  - Section renamed to **"Management & Reports"**.
+  - Added three cards/buttons: Manage Questions, Manage Forms, Manage Users (Create new users only).
+
+## 3) Results Dashboard Enhancements (Admin ViewResults)
+
+### Overview
+- Implemented a consolidated results dashboard for administrators to analyze completed forms, average scores, and company participation, with CSV export support.
+
+### Data model updates
+- `GlasAnketa.ViewModels/Models/AnswerVM.cs` extended with:
+  - `CompanyId`, `UserId`, `QuestionId`, `QuestionFormId`, `ScaleValue`, `TextValue`, `AnsweredDate`.
+- `GlasAnketa.ViewModels/Models/AnswerSummaryVM.cs` extended with:
+  - `QuestionId`, `QuestionText`, `QuestionType`, `AverageScaleValue`, `ResponseCount`, `ScaleValueDistribution`, `TextResponses`.
+- `GlasAnketa.Services/AutoMappers/AnswerMappingProfile.cs` updated to map `TotalResponses` → `ResponseCount` and copy distributions/text responses.
+- `GlasAnketa.DataAccess/Implementations/AnswerRepository.cs`:
+  - `GetAnswerSummariesAsync(int formId)` now aggregates per-question:
+    - Total responses.
+    - Average scale value (for scale questions).
+    - Scale value distribution (value → count).
+    - Text responses list.
+- `GlasAnketa.Services/Implementations/AnswerService.cs`:
+  - `GetFormAnswersAsync(formId)` returns detailed `AnswerVM` list for a form.
+  - `GetAnswerSummariesAsync(formId)` returns `Dictionary<int, AnswerSummaryVM>` keyed by `QuestionId`.
+
+### Controller and view
+- `GlasAnketa/Controllers/AdminController.cs`:
+  - `ViewResults(int formId = 1)` loads answers and summaries, builds `ResultsVM`, and populates `ViewBag.Forms` with available forms and `ViewBag.SelectedFormId`.
+  - `ExportResults(int formId)` outputs a CSV with columns:
+    - `UserId,CompanyId,QuestionFormId,QuestionId,ScaleValue,TextValue,AnsweredDate`.
+- `GlasAnketa/Views/Admin/ViewResults.cshtml`:
+  - Form selector for choosing a form and exporting results.
+  - Quick stats:
+    - Total number of scale responses.
+    - Global average scale value (sum of scale values / count).
+    - Distinct list of responding CompanyIds.
+  - Per-question analytics table using `AnswerSummaryVM`:
+    - Question text, type, response count, average scale value, and scale distribution.
+  - Individual responses table:
+    - User, CompanyId, question text, answer (scale or text), and answered date.
+
+## 4) Question and Form Edit Views
+
+### Problem
+- `EditQuestion` and `EditForm` actions existed in `AdminController`, but corresponding views were missing, causing `InvalidOperationException: The view 'EditQuestion'/'EditForm' was not found` when clicking Edit.
+
+### Solution
+- Added strongly-typed Razor views under `GlasAnketa/Views/Admin/`:
+  - `EditQuestion.cshtml` (model: `RegisterQuestionVM`):
+    - Dropdown for `QuestionFormId` (`ViewBag.QuestionForms`).
+    - Textarea for question text.
+    - Dropdown for question type (`ViewBag.QuestionTypes`).
+    - Hidden field for `Id`.
+  - `CreateQuestion.cshtml` (model: `RegisterQuestionVM`):
+    - Same fields as `EditQuestion`, without pre-filled data.
+  - `EditForm.cshtml` (model: `QuestionFormVM`):
+    - Fields for `Title`, `Description`, `IsActive`, and hidden `Id`.
+  - `CreateForm.cshtml` (model: `QuestionFormVM`):
+    - Same fields as `EditForm` for creating new forms.
+
+### Result
+- Edit buttons in Manage Questions and Manage Forms now open fully functional edit pages without view-not-found errors.
+- Admins can create and edit both questions and forms using consistent UI.
+
+## 5) Admin Dashboard: User Answer Status Report & Export
+
+### Overview
+- Added a simple per-user answer status report directly to the Admin Dashboard, showing which users have submitted any answers.
+- Provided a one-click CSV export of this report for offline analysis.
+
+### Implementation
+- View models:
+  - `GlasAnketa.ViewModels/Models/AdminDashboardVM.cs`:
+    - `UserAnswerStatusVM` with `UserId`, `CompanyId`, `FullName`, `HasAnswers`.
+    - `AdminDashboardVM` with `List<UserAnswerStatusVM> UserAnswerStatuses`.
+- Data access:
+  - `GlasAnketa.DataAccess/Interfaces/IAnswerRepository.cs`:
+    - Added `Task<List<int>> GetUserIdsWithAnyAnswersAsync()`.
+  - `GlasAnketa.DataAccess/Implementations/AnswerRepository.cs`:
+    - Implemented `GetUserIdsWithAnyAnswersAsync()` using distinct `Answer.UserId` from the `Answers` table.
+- Service:
+  - `GlasAnketa.Services/Interfaces/IAnswerService.cs` and `GlasAnketa.Services/Implementations/AnswerService.cs`:
+    - Exposed `GetUserIdsWithAnyAnswersAsync()` for controllers.
+- Controller:
+  - `GlasAnketa/Controllers/AdminController.cs`:
+    - `Index()` now builds `AdminDashboardVM` by:
+      - Loading all users via `_userService.GetAllUsersAsync()`.
+      - Fetching all user IDs that have answers via `_answerService.GetUserIdsWithAnyAnswersAsync()`.
+      - Setting `HasAnswers = true` if a user ID appears in that list.
+    - Added `[HttpPost] ExportUserAnswerStatus()` which:
+      - Recomputes the same list (CompanyId, FullName, Answered Yes/No).
+      - Writes a CSV with header `CompanyId,FullName,Answered` and returns it as a file (e.g. `UserAnswerStatus_YYYYMMDDHHMMSS.csv`).
+- View:
+  - `GlasAnketa/Views/Admin/Index.cshtml`:
+    - Strongly typed to `AdminDashboardVM`.
+    - New **User Answer Status** section with a responsive table (3 columns: CompanyId, Full Name, Answered) and colored badges:
+      - Green **Yes** if the user has any answers.
+      - Grey **No** otherwise.
+    - Added a single button above the table:
+      - `Export User Answer Status` (POST to `Admin/ExportUserAnswerStatus` with anti-forgery token).
+
+### Result
+- Admins can see, on the dashboard, for each user: CompanyId, FullName, and whether they have submitted any answers.
+- Admins can click **Export User Answer Status** to download the same data as a CSV for further processing.

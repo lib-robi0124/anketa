@@ -9,5 +9,10 @@ namespace GlasAnketa.Services.Interfaces
         Task<List<AnswerVM>> GetFormAnswersAsync(int formId);
         Task SaveAnswersAsync(List<AnswerVM> answers);
         Task<Dictionary<int, AnswerSummaryVM>> GetAnswerSummariesAsync(int formId);
+
+        /// <summary>
+        /// Returns distinct user IDs that have at least one answer recorded.
+        /// </summary>
+        Task<List<int>> GetUserIdsWithAnyAnswersAsync();
     }
 }

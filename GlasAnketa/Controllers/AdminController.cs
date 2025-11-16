@@ -3,6 +3,7 @@ using GlasAnketa.Services.Interfaces;
 using GlasAnketa.ViewModels.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Text;
 
 namespace GlasAnketa.Controllers
 {
@@ -28,7 +29,60 @@ namespace GlasAnketa.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View();
+            // Build simple user answer status report for the dashboard
+            var users = await _userService.GetAllUsersAsync();
+            var userIdsWithAnswers = await _answerService.GetUserIdsWithAnyAnswersAsync();
+            var answeredSet = new HashSet<int>(userIdsWithAnswers);
+
+            var dashboardModel = new AdminDashboardVM
+            {
+                UserAnswerStatuses = users
+                    .OrderBy(u => u.CompanyId)
+                    .ThenBy(u => u.FullName)
+                    .Select(u => new UserAnswerStatusVM
+                    {
+                        UserId = u.Id,
+                        CompanyId = u.CompanyId,
+                        FullName = u.FullName,
+                        HasAnswers = answeredSet.Contains(u.Id)
+                    })
+                    .ToList()
+            };
+
+            return View(dashboardModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ExportUserAnswerStatus()
+        {
+            var users = await _userService.GetAllUsersAsync();
+            var userIdsWithAnswers = await _answerService.GetUserIdsWithAnyAnswersAsync();
+            var answeredSet = new HashSet<int>(userIdsWithAnswers);
+
+            var rows = users
+                .OrderBy(u => u.CompanyId)
+                .ThenBy(u => u.FullName)
+                .Select(u => new
+                {
+                    CompanyId = u.CompanyId,
+                    FullName = u.FullName ?? string.Empty,
+                    Answered = answeredSet.Contains(u.Id) ? "Yes" : "No"
+                })
+                .ToList();
+
+            var sb = new StringBuilder();
+            sb.AppendLine("CompanyId,FullName,Answered");
+
+            foreach (var row in rows)
+            {
+                var fullName = row.FullName.Replace("\"", "''").Replace(",", ";");
+                sb.AppendLine($"{row.CompanyId},{fullName},{row.Answered}");
+            }
+
+            var bytes = Encoding.UTF8.GetBytes(sb.ToString());
+            var fileName = $"UserAnswerStatus_{DateTime.UtcNow:yyyyMMddHHmmss}.csv";
+            return File(bytes, "text/csv", fileName);
         }
 
         public async Task<IActionResult> ViewResults()

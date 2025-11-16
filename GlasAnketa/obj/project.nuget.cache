@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vzcfVFzHTEg=",
+  "dgSpecHash": "n6a5fjvyh9Q=",
   "success": true,
-  "projectFilePath": "C:\\qinshift\\anketa\\GlasAnketa\\GlasAnketa.csproj",
+  "projectFilePath": "C:\\officeApps\\anketa\\GlasAnketa\\GlasAnketa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -92,9 +92,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Exchange.WebServices 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\qinshift\\anketa\\GlasAnketa\\GlasAnketa.csproj",
+      "projectPath": "C:\\officeApps\\anketa\\GlasAnketa\\GlasAnketa.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\qinshift\\anketa\\GlasAnketa\\GlasAnketa.csproj",
+      "filePath": "C:\\officeApps\\anketa\\GlasAnketa\\GlasAnketa.csproj",
       "libraryId": "Microsoft.Exchange.WebServices",
       "targetGraphs": [
         "net8.0"

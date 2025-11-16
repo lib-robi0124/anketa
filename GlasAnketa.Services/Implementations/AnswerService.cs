@@ -28,6 +28,11 @@ namespace GlasAnketa.Services.Implementations
             return _mapper.Map<List<AnswerVM>>(answers);
         }
 
+        public async Task<List<int>> GetUserIdsWithAnyAnswersAsync()
+        {
+            return await _answerRepository.GetUserIdsWithAnyAnswersAsync();
+        }
+
         public async Task<List<AnswerVM>> GetUserAnswersAsync(int userId, int formId)
         {
             var answers = await _answerRepository.GetAnswersByUserIdAsync(userId, formId);

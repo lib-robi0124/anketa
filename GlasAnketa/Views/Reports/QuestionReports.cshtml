@@ -44,6 +44,8 @@
                         <th>Question Text</th>
                         <th>Form</th>
                         <th>Responses</th>
+                        <th>Text Responses</th>
+                        <th>Sample Text Answers</th>
                         <th>Total Scale</th>
                         <th>Average</th>
                         @if (isAdmin)
@@ -60,6 +62,17 @@
                             <td class="question-text">@(!string.IsNullOrEmpty(item.QuestionText) ? item.QuestionText : "No Question Text")</td>
                             <td>@(!string.IsNullOrEmpty(item.FormTitle) ? item.FormTitle : "No Form")</td>
                             <td>@(item.TotalResponses >= 0 ? item.TotalResponses.ToString() : "0")</td>
+                            <td>@item.TextResponseCount</td>
+                            <td class="text-responses-cell">
+                                @if (!string.IsNullOrWhiteSpace(item.SampleTextResponses))
+                                {
+                                    @item.SampleTextResponses
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No text answers</span>
+                                }
+                            </td>
                             <td>@(item.TotalScaleValue >= 0 ? item.TotalScaleValue.ToString() : "0")</td>
                             <td>
                                 <div class="progress-cell">
@@ -166,6 +179,11 @@
 
     .question-text {
         max-width: 400px;
+        word-wrap: break-word;
+    }
+
+    .text-responses-cell {
+        max-width: 500px;
         word-wrap: break-word;
     }
 

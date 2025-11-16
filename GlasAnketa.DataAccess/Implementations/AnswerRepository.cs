@@ -74,6 +74,7 @@ namespace GlasAnketa.DataAccess.Implementations
                                               a.QuestionId == questionId &&
                                               a.QuestionFormId == questionFormId);
         }
+
         public async Task SaveAnswersAsync(List<Answer> answers)
         {
             foreach (var ans in answers)
@@ -142,6 +143,14 @@ namespace GlasAnketa.DataAccess.Implementations
             await transaction.CommitAsync();
             return result > 0;
         }
+        public async Task<List<int>> GetUserIdsWithAnyAnswersAsync()
+        {
+            return await _context.Answers
+                .Select(a => a.UserId)
+                .Distinct()
+                .ToListAsync();
+        }
+
         private void UpdateAnswerValue(Answer answer, string questionType, object value)
         {
             if (questionType == "Scale")

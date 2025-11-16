@@ -1,4 +1,5 @@
-﻿@{
+﻿@model AdminDashboardVM
+@{
     ViewData["Title"] = "Admin Dashboard";
 }
 
@@ -207,6 +208,50 @@
                 </div>
             </div>
         </div>
+
+        <!-- User Answer Status Report -->
+        @if (Model != null && Model.UserAnswerStatuses.Any())
+        {
+            <div class="user-answer-status">
+                <h3><i class="fas fa-users"></i> User Answer Status</h3>
+                <form asp-action="ExportUserAnswerStatus" asp-controller="Admin" method="post" class="mb-3">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-sm btn-outline-secondary">
+                        <i class="fas fa-file-csv"></i> Export User Answer Status
+                    </button>
+                </form>
+                <div class="table-responsive">
+                    <table class="table table-sm table-striped align-middle user-answer-table">
+                        <thead>
+                            <tr>
+                                <th>CompanyId</th>
+                                <th>Full Name</th>
+                                <th>Answered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in Model.UserAnswerStatuses)
+                            {
+                                <tr>
+                                    <td>@row.CompanyId</td>
+                                    <td>@row.FullName</td>
+                                    <td>
+                                        @if (row.HasAnswers)
+                                        {
+                                            <span class="badge bg-success">Yes</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">No</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
 
         <!-- Recent Activity -->
         <div class="recent-activity">
@@ -555,6 +600,26 @@
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
+        }
+
+        .user-answer-status {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+
+            .user-answer-status h3 {
+                margin-bottom: 20px;
+                color: #2c3e50;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+        .user-answer-table tbody tr td:last-child {
+            text-align: center;
         }
 
         .recent-activity {
