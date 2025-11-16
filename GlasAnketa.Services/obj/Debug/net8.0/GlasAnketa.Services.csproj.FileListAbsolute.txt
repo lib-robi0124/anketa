@@ -94,3 +94,4 @@ C:\qinshift\anketa\GlasAnketa.Services\obj\Debug\net8.0\GlasAnketa.Services.dll
 C:\qinshift\anketa\GlasAnketa.Services\obj\Debug\net8.0\refint\GlasAnketa.Services.dll
 C:\qinshift\anketa\GlasAnketa.Services\obj\Debug\net8.0\GlasAnketa.Services.pdb
 C:\qinshift\anketa\GlasAnketa.Services\obj\Debug\net8.0\ref\GlasAnketa.Services.dll
+C:\qinshift\anketa\GlasAnketa.Services\obj\Debug\net8.0\GlasAnketa.Services.sourcelink.json

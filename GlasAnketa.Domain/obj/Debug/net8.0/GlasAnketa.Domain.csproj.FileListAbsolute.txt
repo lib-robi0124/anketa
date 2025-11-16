@@ -64,3 +64,4 @@ C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\refint\GlasAnketa.Domain.d
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.pdb
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.genruntimeconfig.cache
 C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\ref\GlasAnketa.Domain.dll
+C:\qinshift\anketa\GlasAnketa.Domain\obj\Debug\net8.0\GlasAnketa.Domain.sourcelink.json

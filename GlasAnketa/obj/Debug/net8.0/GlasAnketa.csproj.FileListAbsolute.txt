@@ -809,3 +809,4 @@ C:\qinshift\anketa\GlasAnketa\obj\Debug\net8.0\refint\GlasAnketa.dll
 C:\qinshift\anketa\GlasAnketa\obj\Debug\net8.0\GlasAnketa.pdb
 C:\qinshift\anketa\GlasAnketa\obj\Debug\net8.0\GlasAnketa.genruntimeconfig.cache
 C:\qinshift\anketa\GlasAnketa\obj\Debug\net8.0\ref\GlasAnketa.dll
+C:\qinshift\anketa\GlasAnketa\obj\Debug\net8.0\GlasAnketa.sourcelink.json

@@ -94,3 +94,4 @@ C:\qinshift\anketa\GlasAnketa.DataAccess\obj\Debug\net8.0\refint\GlasAnketa.Data
 C:\qinshift\anketa\GlasAnketa.DataAccess\obj\Debug\net8.0\GlasAnketa.DataAccess.pdb
 C:\qinshift\anketa\GlasAnketa.DataAccess\obj\Debug\net8.0\GlasAnketa.DataAccess.genruntimeconfig.cache
 C:\qinshift\anketa\GlasAnketa.DataAccess\obj\Debug\net8.0\ref\GlasAnketa.DataAccess.dll
+C:\qinshift\anketa\GlasAnketa.DataAccess\obj\Debug\net8.0\GlasAnketa.DataAccess.sourcelink.json

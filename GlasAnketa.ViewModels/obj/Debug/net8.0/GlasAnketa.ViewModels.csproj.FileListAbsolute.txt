@@ -74,3 +74,4 @@ C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.
 C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\refint\GlasAnketa.ViewModels.dll
 C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.pdb
 C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\ref\GlasAnketa.ViewModels.dll
+C:\qinshift\anketa\GlasAnketa.ViewModels\obj\Debug\net8.0\GlasAnketa.ViewModels.sourcelink.json
