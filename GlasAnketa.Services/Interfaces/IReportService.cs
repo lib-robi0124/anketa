@@ -11,5 +11,6 @@ namespace GlasAnketa.Services.Interfaces
         Task<ReportSummaryVM> GetReportSummaryAsync();
         Task<List<AgeReportVM>> GetAgeReportsAsync(int? companyId = null);
         Task<List<WorkExperienceReportVM>> GetWorkExperienceReportsAsync(int? companyId = null);
+        Task<List<QuestionReportByFiltersVM>> GetQuestionReportByFiltersAsync(int? companyId = null, string? ou = null, string? ou2 = null);
     }
 }

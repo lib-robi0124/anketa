@@ -1,4 +1,4 @@
-﻿using GlasAnketa.Domain.Models;
+using GlasAnketa.Domain.Models;
 
 namespace GlasAnketa.DataAccess.Interfaces
 {
@@ -7,6 +7,7 @@ namespace GlasAnketa.DataAccess.Interfaces
         Task<List<QuestionForm>> GetAllFormQuestionsAsync();
         Task<QuestionForm> GetQuestionFormByIdAsync(int id);
         Task<QuestionForm?> GetNextActiveFormAsync(int currentFormId);
+        Task<QuestionForm?> GetPreviousActiveFormAsync(int currentFormId);
         Task<bool> ToggleFormStatusAsync(int formId, bool isActive);
     }
 }

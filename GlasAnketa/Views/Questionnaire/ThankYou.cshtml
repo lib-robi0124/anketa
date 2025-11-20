@@ -1,22 +1,19 @@
-﻿@{
+@{
     ViewData["Title"] = "Thank You";
+    var finishMessage = TempData["FinishMessage"] as string ?? "Blagodaram za Vaseto ucestvo vo Anketata";
 }
 
 <div class="thank-you-container">
     <div class="alert-success">
         <div class="success-icon">✅</div>
-        <h2>Thank You for Your Feedback!</h2>
-        <p>Your responses have been successfully recorded and will help us improve the workplace environment.</p>
-        <p>We truly value your input and commitment to making our company better.</p>
-
-        <div class="completion-stats">
-            <h4>Submission Details</h4>
-            <p><strong>Answers Submitted:</strong> @Model.SubmittedCount</p>
-            <p><strong>Submission Date:</strong> @Model.SubmissionDate.ToString("MMMM dd, yyyy")</p>
-        </div>
+        <h2>@finishMessage</h2>
+        <p>Вашите одговори се зачувани.</p>
 
         <div class="mt-4">
-            <a href="@Url.Action("Logout", "Account")" class="btn btn-primary">Return to Login</a>
+            <form asp-controller="Account" asp-action="Logout" method="post">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn btn-primary">Logout</button>
+            </form>
         </div>
     </div>
 </div>
@@ -92,16 +89,6 @@
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Celebrate completion
-        if (typeof confetti === 'function') {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
-        }
-
-        // Clear any saved progress
         Object.keys(localStorage).forEach(key => {
             if (key.startsWith('formProgress_')) {
                 localStorage.removeItem(key);

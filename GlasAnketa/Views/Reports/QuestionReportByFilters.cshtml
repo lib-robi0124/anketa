@@ -1,0 +1,155 @@
+@model List<QuestionReportByFiltersVM>
+@{
+    ViewData["Title"] = "Question Reports by Filters";
+    var filterCompanyId = ViewBag.FilterCompanyId as int?;
+    var filterOU = ViewBag.FilterOU as string;
+    var filterOU2 = ViewBag.FilterOU2 as string;
+    bool byCompany = filterCompanyId.HasValue;
+    bool byOU = !string.IsNullOrWhiteSpace(filterOU) && !byCompany;
+    bool byOU2 = !string.IsNullOrWhiteSpace(filterOU2) && !byCompany && !byOU;
+}
+<div class="reports-container">
+    <div class="report-header">
+        <div class="header-content">
+            <h1>📊 Question Reports (Filtered)</h1>
+            <p>Form and question metrics with filter-driven columns</p>
+        </div>
+        <a href="@Url.Action("Index", "Reports")" class="btn btn-back">← Back</a>
+    </div>
+
+    <form method="get" asp-action="QuestionReportByFilters" class="filters-bar">
+        <div class="filter-group">
+            <label>CompanyId</label>
+            <input type="number" name="levcompanyId" value="@(filterCompanyId?.ToString() ?? "")" />
+        </div>
+        <div class="filter-group">
+            <label>OU</label>
+            <input type="text" name="ou" value="@(filterOU ?? "")" />
+        </div>
+        <div class="filter-group">
+            <label>OU2</label>
+            <input type="text" name="ou2" value="@(filterOU2 ?? "")" />
+        </div>
+        <button type="submit" class="btn btn-primary">Apply Filters</button>
+        <a class="btn btn-secondary" href="@Url.Action("QuestionReportByFilters")">Clear</a>
+    </form>
+
+    <div class="applied-filters">
+        <strong>Applied:</strong>
+        <span>CompanyId: @(filterCompanyId?.ToString() ?? "All")</span> |
+        <span>OU: @(string.IsNullOrWhiteSpace(filterOU) ? "All" : filterOU)</span> |
+        <span>OU2: @(string.IsNullOrWhiteSpace(filterOU2) ? "All" : filterOU2)</span>
+    </div>
+
+    @if (Model == null)
+    {
+        <div class="alert alert-warning"><strong>No Data</strong> Try adjusting filters.</div>
+    }
+    else if (!Model.Any())
+    {
+        <div class="alert alert-info"><strong>No Results</strong> No questions match the filters.</div>
+    }
+    else
+    {
+        <div class="report-table-container">
+            <table class="report-table">
+                <thead>
+                    <tr>
+                        <th>Form</th>
+                        <th>QuestionText</th>
+                        @if (byCompany)
+                        {
+                            <th>OU</th>
+                            <th>OU2</th>
+                            <th>Age (avg)</th>
+                            <th>WorkExp (avg)</th>
+                        }
+                        else if (byOU)
+                        {
+                            <th>OU2</th>
+                            <th>Age (avg)</th>
+                            <th>WorkExp (avg)</th>
+                        }
+                        else if (byOU2)
+                        {
+                            <th>OU2</th>
+                            <th>Age (avg)</th>
+                            <th>WorkExp (avg)</th>
+                        }
+                        <th>Response (TextResponse if not scale)</th>
+                        <th>TotalScale</th>
+                        <th>Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@(string.IsNullOrWhiteSpace(item.FormTitle) ? "No Form" : item.FormTitle)</td>
+                        <td class="question-text">@item.QuestionText</td>
+
+                        @if (byCompany)
+                        {
+                            <td>@(item.OU ?? "-")</td>
+                            <td>@(item.OU2 ?? "-")</td>
+                            <td>@item.AverageAge</td>
+                            <td>@item.AverageWorkExperience</td>
+                        }
+                        else if (byOU)
+                        {
+                            <td>@(item.OU2 ?? "-")</td>
+                            <td>@item.AverageAge</td>
+                            <td>@item.AverageWorkExperience</td>
+                        }
+                        else if (byOU2)
+                        {
+                            <td>@(item.OU2 ?? "-")</td>
+                            <td>@item.AverageAge</td>
+                            <td>@item.AverageWorkExperience</td>
+                        }
+
+                        <td class="text-responses-cell">
+                            @if (!string.IsNullOrWhiteSpace(item.SampleTextResponses))
+                            {
+                                @item.SampleTextResponses
+                            }
+                            else
+                            {
+                                <span class="text-muted">(scale only)</span>
+                            }
+                        </td>
+                        <td>@item.TotalScaleValue</td>
+                        <td>
+                            <div class="progress-cell">
+                                <span>@item.AverageScaleValueDisplay</span>
+                                <div class="progress-bar-small">
+                                    <div class="progress-fill" style="width: @(Math.Max(0, Math.Min(100, item.AverageScaleValue * 10)))%"></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    }
+}
+</div>
+
+<style>
+    .reports-container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+    .report-header { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 15px; display:flex; justify-content:space-between; align-items:center; }
+    .btn-back { background:#6c757d; color:#fff; text-decoration:none; padding:8px 16px; border-radius:6px; }
+    .filters-bar { display:flex; gap:12px; align-items:flex-end; background:white; padding:12px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.08); margin-bottom:10px; }
+    .filter-group { display:flex; flex-direction:column; }
+    .applied-filters { margin:10px 0; font-size:0.95em; color:#555; }
+    .report-table-container { background:white; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); overflow:hidden; }
+    .report-table { width:100%; border-collapse:collapse; }
+    .report-table th { background:#34495e; color:white; padding:12px; text-align:left; }
+    .report-table td { padding:12px; border-bottom:1px solid #ecf0f1; }
+    .question-text { max-width:450px; word-wrap:break-word; }
+    .text-responses-cell { max-width:500px; word-wrap:break-word; }
+    .progress-cell { display:flex; align-items:center; gap:10px; }
+    .progress-bar-small { width:80px; height:6px; background:#ecf0f1; border-radius:3px; overflow:hidden; }
+    .progress-fill { height:100%; background:#3498db; transition:width 0.3s ease; }
+</style>

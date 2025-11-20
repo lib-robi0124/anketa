@@ -1,4 +1,4 @@
-﻿using GlasAnketa.DataAccess.DataContext;
+using GlasAnketa.DataAccess.DataContext;
 using GlasAnketa.DataAccess.Interfaces;
 using GlasAnketa.Domain.Models;
 using Microsoft.EntityFrameworkCore;
@@ -149,6 +149,21 @@ namespace GlasAnketa.DataAccess.Implementations
                 .Select(a => a.UserId)
                 .Distinct()
                 .ToListAsync();
+        }
+
+        public async Task<bool> ClearAnswersAsync(int userId, int formId)
+        {
+            var toDelete = await _context.Answers
+                .Where(a => a.UserId == userId && a.QuestionFormId == formId)
+                .ToListAsync();
+
+            if (toDelete.Any())
+            {
+                _context.Answers.RemoveRange(toDelete);
+                var changed = await _context.SaveChangesAsync();
+                return changed > 0;
+            }
+            return true;
         }
 
         private void UpdateAnswerValue(Answer answer, string questionType, object value)

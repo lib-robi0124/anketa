@@ -28,6 +28,14 @@
                         <p class="mb-0">Внесете ги вашите податоци за најава</p>
                     </div>
                     <div class="login-body">
+                        @{
+                            var finishMsg = TempData["FinishMessage"] as string;
+                            var qsMsg = Context.Request.Query["message"].ToString();
+                            if (!string.IsNullOrWhiteSpace(finishMsg) || qsMsg == "thankyou")
+                            {
+                                <div class="alert alert-success mb-3">Blagodaram za Vaseto ucestvo vo Anketata</div>
+                            }
+                        }
                         <form asp-action="Login" method="post">
                             <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 

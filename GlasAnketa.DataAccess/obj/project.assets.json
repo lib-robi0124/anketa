@@ -4216,23 +4216,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\Robertr2\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\officeApps\\anketa\\GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj",
+      "projectUniqueName": "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj",
       "projectName": "GlasAnketa.DataAccess",
-      "projectPath": "C:\\officeApps\\anketa\\GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\officeApps\\anketa\\GlasAnketa.DataAccess\\obj\\",
+      "projectPath": "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+      "outputPath": "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4247,11 +4247,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\officeApps\\anketa\\GlasAnketa.Domain\\GlasAnketa.Domain.csproj": {
-              "projectPath": "C:\\officeApps\\anketa\\GlasAnketa.Domain\\GlasAnketa.Domain.csproj"
+            "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.Domain\\GlasAnketa.Domain.csproj": {
+              "projectPath": "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.Domain\\GlasAnketa.Domain.csproj"
             },
-            "C:\\officeApps\\anketa\\GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj": {
-              "projectPath": "C:\\officeApps\\anketa\\GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj"
+            "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj": {
+              "projectPath": "D:\\proekt-office\\officeApps\\anketa\\GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj"
             }
           }
         }
@@ -4311,7 +4311,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using GlasAnketa.DataAccess.Interfaces;
 using GlasAnketa.Domain.Models;
 using GlasAnketa.Services.Interfaces;
@@ -49,6 +49,11 @@ namespace GlasAnketa.Services.Implementations
         public async Task<bool> SubmitAnswersAsync(int userId, int formId, Dictionary<int, object> answers)
         {
             return await _answerRepository.SubmitAnswersAsync(userId, formId, answers);
+        }
+
+        public async Task<bool> ClearAnswersAsync(int userId, int formId)
+        {
+            return await _answerRepository.ClearAnswersAsync(userId, formId);
         }
     }
 }

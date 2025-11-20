@@ -207,3 +207,66 @@ If you are not using EF Core migrations, add a nullable/bit `IsActive` column to
 - `Views/Reports/QuestionReports.cshtml`
 - `Views/Reports/FormByOUReports.cshtml`
 - `Views/Reports/QuestionByOUReports.cshtml`
+
+---
+
+## 8. QuestionReportByFilters Fixes (January 20, 2025)
+
+**Purpose:** Fix parameter binding and implement correct OU-based filtering with OU2 grouping.
+
+### 8.1 Parameter Name Mismatch Fix
+
+**Problem:** Form input used `name="companyId"` but controller parameter was `levcompanyId`, causing filters to not work.
+
+**Key changes:**
+- **Views/Reports/QuestionReportByFilters.cshtml**
+  - Changed form input from `name="companyId"` to `name="levcompanyId"` (line 23) to match controller parameter.
+
+### 8.2 ReportUser Data Update
+
+**Problem:** Original ReportUser LevCompanyIds (4420621, 4420975) had no corresponding data in the database.
+
+**Key changes:**
+- **Database: ReportUsers table**
+  - Updated ReportUser 1: LevCompanyId from 4420621 to **20708** (Projects and IT, 42 answers)
+  - Updated ReportUser 1: Password from "20621" to **"20708"**
+  - Updated ReportUser 2: LevCompanyId from 4420975 to **20724** (HR, 38 answers)
+  - Updated ReportUser 2: Password from "20975" to **"20724"**
+
+### 8.3 OU-Based Filtering with OU2 Grouping
+
+**Problem:** When filtering by CompanyId, report only showed data for that specific CompanyId. Requirements specified showing ALL users in the same OU, grouped by OU2.
+
+**Example:** Filtering by CompanyId 20724 (OU="HR") should show:
+- All answers from ALL users where OU="HR" (not just CompanyId 20724)
+- Grouped by different OU2 values within that OU
+- Multiple rows per question (one for each OU2)
+
+**Key changes:**
+- **Services/Implementations/ReportService.cs**
+  - `GetQuestionReportByFiltersAsync` method completely rewritten:
+    - When `companyId` is provided, looks up the user's OU from the Users table
+    - Filters ALL answers by that OU (not just by CompanyId)
+    - Groups results by OU2 within that OU
+    - Creates multiple report rows per question (one per OU2 group)
+    - Each row shows:
+      - `OU`: The OU of the filtered CompanyId
+      - `OU2`: Each distinct OU2 value within that OU
+      - `TotalScaleValue`: Sum of scale values from all users in that OU+OU2 combination
+      - `AverageScaleValue`: Average scale value from all users in that OU+OU2 combination
+      - `AverageAge`, `AverageWorkExperience`: Averages from users in that OU+OU2 combination
+    - Fixed average calculation: Changed from `totalScale / totalResponses` to `scaleAnswers.Average()` for correct scale-only averaging
+
+**Behavior:**
+- **Filter by CompanyId only**: Shows all OU2 groups within that CompanyId's OU
+- **Filter by OU only**: Shows single row per question with all answers in that OU
+- **Filter by OU2 only**: Shows single row per question with all answers in that OU2
+- **Filter by CompanyId + OU2**: Shows single row per question with that specific OU+OU2 combination
+
+### Testing
+
+To test the updated functionality:
+1. Login with CompanyId: **20708**, Password: **20708** (Admin role, Projects and IT)
+2. Login with CompanyId: **20724**, Password: **20724** (Viewer role, HR)
+3. Navigate to Reports → Question Reports (Filtered)
+4. Apply filter with CompanyId 20724 to see all HR users grouped by OU2

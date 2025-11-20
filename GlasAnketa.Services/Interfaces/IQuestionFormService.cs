@@ -1,4 +1,4 @@
-﻿using GlasAnketa.ViewModels.Models;
+using GlasAnketa.ViewModels.Models;
 
 namespace GlasAnketa.Services.Interfaces
 {
@@ -8,6 +8,7 @@ namespace GlasAnketa.Services.Interfaces
         Task<List<QuestionFormVM>> GetAllActiveFormsAsync();
         Task<QuestionFormVM> GetActiveFormAsync();
         Task<QuestionFormVM?> GetNextActiveFormAsync(int currentFormId);
+        Task<QuestionFormVM?> GetPreviousActiveFormAsync(int currentFormId);
 		// For admins - form management
         Task<List<QuestionFormVM>> GetAllFormsAsync();
         Task<QuestionFormVM> GetFormByIdAsync(int formId);

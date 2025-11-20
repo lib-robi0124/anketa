@@ -16,6 +16,63 @@ namespace GlasAnketa.DataAccess.Extensions
                 new QuestionType { Id = 1, Name = "Scale", Description = "1-10 Scale" },
                 new QuestionType { Id = 2, Name = "Text", Description = "Text Answer" }
             );
+            
+            // Seed ReportRoles
+            modelBuilder.Entity<ReportRole>().HasData(
+                new ReportRole 
+                { 
+                    Id = 1, 
+                    Name = "Admin", 
+                    Description = "Full access to all reports",
+                    CanViewAll = true,
+                    CanViewSubordinate = false,
+                    CanViewSpecificOU = false
+                },
+                new ReportRole 
+                { 
+                    Id = 2, 
+                    Name = "OUManager", 
+                    Description = "Access to subordinate level reports",
+                    CanViewAll = false,
+                    CanViewSubordinate = true,
+                    CanViewSpecificOU = false
+                },
+                new ReportRole 
+                { 
+                    Id = 3, 
+                    Name = "Viewer", 
+                    Description = "Access to specific OU reports only",
+                    CanViewAll = false,
+                    CanViewSubordinate = false,
+                    CanViewSpecificOU = true
+                }
+            );
+            
+            // Seed ReportUsers
+            modelBuilder.Entity<ReportUser>().HasData(
+                new ReportUser 
+                { 
+                    Id = 1, 
+                    LevCompanyId = 4420621, 
+                    Password = "20621", 
+                    ReportRoleId = 1,
+                    AllowedOUs = "Production,Projects and IT,Supply chain,HR", 
+                    AllowedOU2s = "Rolling Unit,Coating Unit,Human Resources,Quality control,Planning & Strategy",
+                    IsActive = true,
+                    CreatedDate = new DateTime(2025, 1, 1)
+                },
+                new ReportUser
+                {
+                    Id = 2,
+                    LevCompanyId = 4420975,
+                    Password = "20975",
+                    ReportRoleId = 3,
+                    AllowedOUs = "Production",
+                    AllowedOU2s = "Rolling Unit,Coating Unit",
+                    IsActive = true,
+                    CreatedDate = new DateTime(2025, 1, 1)
+                }
+            );
             modelBuilder.Entity<User>().HasData(
                 new User { Id = 1, CompanyId = 16130, FullName = "Vasko Gjorgiev", OU = "Production", OU2 = "Rolling Unit", Password = "16130", RoleId = 2, Age = 63, WorkExperience = 42 },
                 new User { Id = 2, CompanyId = 16684, FullName = "Zoran Stojanovski", OU = "Production", OU2 = "Rolling Unit", Password = "16684", RoleId = 2, Age = 63, WorkExperience = 00 },

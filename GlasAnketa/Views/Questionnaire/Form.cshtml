@@ -16,6 +16,7 @@
     var isLastForm = ViewBag.IsLastForm as bool? ?? false;
     var currentFormNumber = ViewBag.CurrentFormNumber as int? ?? 1;
     var totalForms = ViewBag.TotalForms as int? ?? 1;
+    var isFirstForm = ViewBag.IsFirstForm as bool? ?? false;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -34,9 +35,13 @@
                 <div class="progress-info">
                     <h1>@Model.QuestionForm.Title</h1>
                     <p>@Model.QuestionForm.Description</p>
-                    <div class="form-counter">
-                        Questionnaire @currentFormNumber of @totalForms
-                    </div>
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
                 </div>
          </div>
 
@@ -52,7 +57,7 @@
                 {
                     var question = Model.QuestionForm.Questions[i];
                     <div class="question-item" data-required="@question.IsRequired.ToString().ToLower()" data-question-type="@question.QuestionType">
-                        <h4>@question.Text @(question.IsRequired ? "*" : "")</h4>
+                        <h4>@question.Text</h4>
 
                         <input type="hidden" name="Answers[@i].QuestionId" value="@question.Id" />
                         <input type="hidden" name="Answers[@i].QuestionFormId" value="@Model.QuestionForm.Id" />
@@ -73,10 +78,6 @@
                                     </label>
                                 }
                             </div>
-                            <div class="scale-labels">
-                                <span>1 - Многу незадоволен</span>
-                                <span>10 - Многу задоволен</span>
-                            </div>
                         }
                         else if (question.QuestionType == "Text")
                         {
@@ -88,23 +89,79 @@
                 }
 
                 <div class="navigation-buttons">
-                    <button type="submit" class="btn btn-success" id="submitBtn">
-                        <span class="btn-text">
-                            @(Model.NextFormId == null ? "Submit All Answers" : "Save & Continue →") <!-- edited -->
-                        </span>
-                        <div class="loading-spinner" style="display: none;"></div>
-                    </button>
+                    @if (!isFirstForm)
+                    {
+                        <button type="submit" formaction="@Url.Action("Back", "Answer")" formmethod="post" class="btn btn-secondary" id="backBtn">Back</button>
+                    }
+                    @if (!isLastForm)
+                    {
+                        <button type="submit" formaction="@Url.Action("Skip", "Answer")" formmethod="post" class="btn btn-warning" id="skipBtn">Skip</button>
+                        <button type="submit" formaction="@Url.Action("Next", "Answer")" formmethod="post" class="btn btn-primary" id="nextBtn">Next</button>
+                    }
+                    <button type="submit" formaction="@Url.Action("Finish", "Answer")" formmethod="post" class="btn btn-success" id="finishBtn">Finish</button>
                 </div>
             </form>
         </div>
     </div>
 
+    <style>
+        .scale-answers { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+        .scale-option { display:inline-flex; align-items:center; cursor:pointer; }
+        .scale-option input { display:none; }
+        .scale-number { width:34px; height:34px; border-radius:50%; border:2px solid #3498db; color:#3498db; display:flex; align-items:center; justify-content:center; font-weight:600; background:#fff; transition:all .2s ease; }
+        .scale-option:hover .scale-number { box-shadow:0 0 0 4px rgba(52,152,219,0.15); }
+        .scale-option input:checked + .scale-number { background:#3498db; color:#fff; }
+        .navigation-buttons { display:flex; gap:10px; margin-top:16px; }
+    </style>
+
+    <!-- Bootstrap JS for alerts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script>
-         document.getElementById('questionnaireForm').addEventListener('submit', function(e) {
-            const btn = document.getElementById('submitBtn');
-            btn.disabled = true;
-            btn.innerHTML = 'Submitting...';
-         });
+        console.log('Form script loaded');
+        
+        function disableButton(btnId, text){
+            const btn = document.getElementById(btnId);
+            if(btn){ 
+                btn.disabled = true; 
+                btn.innerHTML = text;
+            }
+        }
+        
+        // Attach form submit handler to disable button AFTER form starts submitting
+        const form = document.getElementById('questionnaireForm');
+        if (form) {
+            console.log('Form found, attaching submit listener');
+            form.addEventListener('submit', function(e) {
+                console.log('Form submit event triggered');
+                // Find which button was clicked by checking event.submitter
+                const submitter = e.submitter;
+                if (submitter) {
+                    console.log('Submitter button:', submitter.id);
+                    const btnId = submitter.id;
+                    // Use a slight delay to allow form submission to complete
+                    setTimeout(function() {
+                        if (btnId === 'backBtn') disableButton('backBtn', 'Going back...');
+                        else if (btnId === 'skipBtn') disableButton('skipBtn', 'Skipping...');
+                        else if (btnId === 'nextBtn') disableButton('nextBtn', 'Submitting...');
+                        else if (btnId === 'finishBtn') disableButton('finishBtn', 'Finishing...');
+                    }, 100);
+                }
+            });
+        } else {
+            console.error('Form not found!');
+        }
+        
+        // Add click handlers to log button clicks
+        ['nextBtn', 'skipBtn', 'backBtn', 'finishBtn'].forEach(function(btnId) {
+            const btn = document.getElementById(btnId);
+            if (btn) {
+                btn.addEventListener('click', function(e) {
+                    console.log('Button clicked:', btnId);
+                    console.log('Form action will be:', btn.getAttribute('formaction'));
+                });
+            }
+        });
     </script>
 </body>
 </html>

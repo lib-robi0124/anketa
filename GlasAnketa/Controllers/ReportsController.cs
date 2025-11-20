@@ -1,8 +1,11 @@
 using GlasAnketa.Services.Interfaces;
 using GlasAnketa.ViewModels.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Text;
+using GlasAnketa.DataAccess.DataContext;
+using GlasAnketa.Domain.Models;
 
 namespace GlasAnketa.Controllers
 {
@@ -10,18 +13,21 @@ namespace GlasAnketa.Controllers
     {
         private readonly IReportService _reportService;
         private readonly ILogger<ReportsController> _logger;
+        private readonly AppDbContext _context;
 
-        public ReportsController(IReportService reportService, ILogger<ReportsController> logger)
+        public ReportsController(IReportService reportService, ILogger<ReportsController> logger, AppDbContext context)
         {
             _reportService = reportService;
             _logger = logger;
+            _context = context;
         }
 
         private bool IsUserAdministrator()
         {
             var userRole = HttpContext.Session.GetString("UserRole");
-            // Allow both Administrator and Manager to access reports
-            return !string.IsNullOrEmpty(userRole) && (userRole == "Administrator" || userRole == "Manager");
+            // Allow Administrator, Manager, and ReportUser to access reports
+            return !string.IsNullOrEmpty(userRole) && 
+                   (userRole == "Administrator" || userRole == "Manager" || userRole == "ReportUser");
         }
 
         private IActionResult RedirectToLoginIfNotAdmin()
@@ -97,6 +103,84 @@ namespace GlasAnketa.Controllers
             }
         }
 
+        [HttpGet]
+        public async Task<IActionResult> QuestionReportByFilters(int? levcompanyId, string? ou, string? ou2)
+        {
+            var authResult = RedirectToLoginIfNotAdmin();
+            if (authResult != null) return authResult;
+
+            try
+            {
+                // Check if user is accessing via ReportUser login
+                var currentReportUser = GetCurrentReportUser();
+                
+                // If levcompanyId is provided, validate access
+                if (levcompanyId.HasValue && currentReportUser != null)
+                {
+                    // Ensure the report user can only access their own levcompanyId
+                    if (currentReportUser.LevCompanyId != levcompanyId.Value)
+                    {
+                        _logger.LogWarning("ReportUser {LevCompanyId} attempted to access reports for {RequestedId}", 
+                            currentReportUser.LevCompanyId, levcompanyId.Value);
+                        return Forbid();
+                    }
+                    
+                    // Apply OU/OU2 restrictions based on ReportRole
+                    if (!currentReportUser.ReportRole.CanViewAll)
+                    {
+                        // Restrict OU filter if specified
+                        if (!string.IsNullOrEmpty(ou))
+                        {
+                            var allowedOUs = currentReportUser.AllowedOUs?.Split(',').Select(o => o.Trim()).ToList();
+                            if (allowedOUs != null && !allowedOUs.Contains(ou))
+                            {
+                                _logger.LogWarning("ReportUser {LevCompanyId} attempted to access restricted OU: {OU}", 
+                                    currentReportUser.LevCompanyId, ou);
+                                return Forbid();
+                            }
+                        }
+                        
+                        // Restrict OU2 filter if specified
+                        if (!string.IsNullOrEmpty(ou2))
+                        {
+                            var allowedOU2s = currentReportUser.AllowedOU2s?.Split(',').Select(o => o.Trim()).ToList();
+                            if (allowedOU2s != null && !allowedOU2s.Contains(ou2))
+                            {
+                                _logger.LogWarning("ReportUser {LevCompanyId} attempted to access restricted OU2: {OU2}", 
+                                    currentReportUser.LevCompanyId, ou2);
+                                return Forbid();
+                            }
+                        }
+                    }
+                }
+                
+                _logger.LogInformation("Loading filtered question reports: companyId={CompanyId}, ou={OU}, ou2={OU2}", levcompanyId, ou, ou2);
+                var reports = await _reportService.GetQuestionReportByFiltersAsync(levcompanyId, ou, ou2);
+                
+                // Pass current report user info to view
+                ViewBag.CurrentReportUser = currentReportUser;
+                ViewBag.FilterCompanyId = levcompanyId;
+                ViewBag.FilterOU = ou;
+                ViewBag.FilterOU2 = ou2;
+                
+                // If report user is restricted, pass allowed filters
+                if (currentReportUser != null && !currentReportUser.ReportRole.CanViewAll)
+                {
+                    ViewBag.AllowedOUs = currentReportUser.AllowedOUs?.Split(',').Select(o => o.Trim()).ToList();
+                    ViewBag.AllowedOU2s = currentReportUser.AllowedOU2s?.Split(',').Select(o => o.Trim()).ToList();
+                }
+                
+                return View(reports);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading filtered question reports");
+                ModelState.AddModelError("", "Error loading filtered question reports. Please try again.");
+                return View(new List<QuestionReportByFiltersVM>());
+            }
+        }
+
+        [HttpGet]
         public async Task<IActionResult> FormReports()
         {
             var authResult = RedirectToLoginIfNotAdmin();
@@ -116,7 +200,83 @@ namespace GlasAnketa.Controllers
                 return View(new List<FormReportVM>());
             }
         }
+        /// <summary>
+        /// Helper method to get current report user from session
+        /// </summary>
+        private ReportUser GetCurrentReportUser()
+        {
+            var levCompanyId = HttpContext.Session.GetInt32("ReportUserLevCompanyId");
+            if (levCompanyId == null)
+                return null;
 
+            return _context.ReportUsers
+                .Include(ru => ru.ReportRole)
+                .FirstOrDefault(ru => ru.LevCompanyId == levCompanyId.Value && ru.IsActive);
+        }
+
+        /// <summary>
+        /// Get reports with role-based filtering
+        /// </summary>
+        [HttpGet]
+        public async Task<IActionResult> GetReports(string ou = null, string ou2 = null)
+        {
+            var currentReportUser = GetCurrentReportUser();
+            if (currentReportUser == null)
+            {
+                _logger.LogWarning("No report user found in session");
+                return RedirectToAction("Login", "Account");
+            }
+
+            var query = _context.Answers
+                .Include(a => a.User)
+                .AsQueryable();
+
+            // Apply role-based filtering
+            if (!currentReportUser.ReportRole.CanViewAll)
+            {
+                if (currentReportUser.ReportRole.CanViewSubordinate)
+                {
+                    // Logic for level-1 access - can view subordinate OUs
+                    // This would require additional hierarchy configuration
+                    // For now, apply same as CanViewSpecificOU
+                    if (!string.IsNullOrEmpty(currentReportUser.AllowedOUs))
+                    {
+                        var allowedOUs = currentReportUser.AllowedOUs.Split(',').Select(o => o.Trim()).ToList();
+                        query = query.Where(a => allowedOUs.Contains(a.User.OU));
+                    }
+                }
+                else if (currentReportUser.ReportRole.CanViewSpecificOU)
+                {
+                    // Restrict to specific OUs
+                    if (!string.IsNullOrEmpty(currentReportUser.AllowedOUs))
+                    {
+                        var allowedOUs = currentReportUser.AllowedOUs.Split(',').Select(o => o.Trim()).ToList();
+                        query = query.Where(a => allowedOUs.Contains(a.User.OU));
+                    }
+                    
+                    // Restrict to specific OU2s if specified
+                    if (!string.IsNullOrEmpty(currentReportUser.AllowedOU2s))
+                    {
+                        var allowedOU2s = currentReportUser.AllowedOU2s.Split(',').Select(o => o.Trim()).ToList();
+                        query = query.Where(a => allowedOU2s.Contains(a.User.OU2));
+                    }
+                }
+            }
+
+            // Apply user-provided filters (if any)
+            if (!string.IsNullOrEmpty(ou))
+            {
+                query = query.Where(a => a.User.OU == ou);
+            }
+            
+            if (!string.IsNullOrEmpty(ou2))
+            {
+                query = query.Where(a => a.User.OU2 == ou2);
+            }
+
+            var results = await query.ToListAsync();
+            return View(results);
+        }
         public async Task<IActionResult> QuestionByOUReports()
         {
             var authResult = RedirectToLoginIfNotAdmin();

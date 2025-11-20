@@ -487,5 +487,209 @@ namespace GlasAnketa.Services.Implementations
                 throw;
             }
         }
+
+        public async Task<List<QuestionReportByFiltersVM>> GetQuestionReportByFiltersAsync(int? companyId = null, string? ou = null, string? ou2 = null)
+        {
+            var questions = await _context.Questions
+                .Include(q => q.QuestionForm)
+                .Include(q => q.Answers)
+                    .ThenInclude(a => a.User)
+                .ToListAsync();
+
+            // If filtering by CompanyId, first get the OU of that company
+            string? targetOU = ou;
+            if (companyId.HasValue && string.IsNullOrWhiteSpace(ou))
+            {
+                var user = await _context.Users.FirstOrDefaultAsync(u => u.CompanyId == companyId.Value);
+                targetOU = user?.OU;
+            }
+
+            var report = new List<QuestionReportByFiltersVM>();
+
+            foreach (var q in questions)
+            {
+                var answers = (q.Answers ?? new List<Answer>()).AsQueryable();
+                
+                // Filter by OU (either from targetOU or from ou parameter)
+                if (!string.IsNullOrWhiteSpace(targetOU))
+                {
+                    answers = answers.Where(a => a.User != null && a.User.OU == targetOU);
+                }
+                // If no OU filter but companyId specified without finding OU, filter by companyId
+                else if (companyId.HasValue)
+                {
+                    answers = answers.Where(a => a.CompanyId == companyId.Value);
+                }
+                
+                // Further filter by OU2 if specified
+                if (!string.IsNullOrWhiteSpace(ou2))
+                {
+                    answers = answers.Where(a => a.User != null && a.User.OU2 == ou2);
+                }
+
+                var filtered = answers.ToList();
+                
+                // If filtering by CompanyId (which resolved to an OU), group by OU2
+                if (companyId.HasValue && !string.IsNullOrWhiteSpace(targetOU) && string.IsNullOrWhiteSpace(ou2))
+                {
+                    var groupedByOU2 = filtered.GroupBy(a => a.User?.OU2 ?? "Unknown");
+                    
+                    foreach (var ou2Group in groupedByOU2)
+                    {
+                        var ou2Answers = ou2Group.ToList();
+                        var scaleAnswers = ou2Answers.Where(a => a.ScaleValue.HasValue).ToList();
+                        var textAnswers = ou2Answers.Where(a => !string.IsNullOrWhiteSpace(a.TextValue)).ToList();
+
+                        var totalResponses = ou2Answers.Count;
+                        var totalScale = scaleAnswers.Sum(a => a.ScaleValue!.Value);
+                        var avgScale = scaleAnswers.Count > 0 ? scaleAnswers.Average(a => (double)a.ScaleValue!.Value) : 0.0;
+
+                        var avgAge = ou2Answers.Where(a => a.User != null && a.User.Age > 0)
+                                              .Select(a => a.User!.Age)
+                                              .DefaultIfEmpty(0).Average();
+                        var avgWork = ou2Answers.Where(a => a.User != null && a.User.WorkExperience > 0)
+                                              .Select(a => a.User!.WorkExperience)
+                                              .DefaultIfEmpty(0).Average();
+
+                        var sampleTexts = textAnswers
+                            .Select(a => a.TextValue!)
+                            .Where(t => !string.IsNullOrWhiteSpace(t))
+                            .Distinct()
+                            .Take(5)
+                            .ToList();
+
+                        report.Add(new QuestionReportByFiltersVM
+                        {
+                            QuestionId = q.Id,
+                            QuestionText = q.Text ?? "No Question Text",
+                            QuestionFormId = q.QuestionFormId,
+                            FormTitle = q.QuestionForm?.Title ?? "No Form Title",
+                            TotalResponses = totalResponses,
+                            TotalScaleValue = totalScale,
+                            AverageScaleValue = avgScale,
+                            TextResponseCount = textAnswers.Count,
+                            SampleTextResponses = string.Join(" | ", sampleTexts),
+                            CompanyId = companyId,
+                            OU = targetOU,
+                            OU2 = ou2Group.Key,
+                            AverageAge = Math.Round(avgAge, 2),
+                            AverageWorkExperience = Math.Round(avgWork, 2)
+                        });
+                    }
+                }
+                else
+                {
+                    // Standard single-row per question logic
+                    var scaleAnswers = filtered.Where(a => a.ScaleValue.HasValue).ToList();
+                    var textAnswers = filtered.Where(a => !string.IsNullOrWhiteSpace(a.TextValue)).ToList();
+
+                    var totalResponses = filtered.Count;
+                    var totalScale = scaleAnswers.Sum(a => a.ScaleValue!.Value);
+                    var avgScale = scaleAnswers.Count > 0 ? scaleAnswers.Average(a => (double)a.ScaleValue!.Value) : 0.0;
+
+                    var avgAge = filtered.Where(a => a.User != null && a.User.Age > 0)
+                                          .Select(a => a.User!.Age)
+                                          .DefaultIfEmpty(0).Average();
+                    var avgWork = filtered.Where(a => a.User != null && a.User.WorkExperience > 0)
+                                          .Select(a => a.User!.WorkExperience)
+                                          .DefaultIfEmpty(0).Average();
+
+                    var sampleTexts = textAnswers
+                        .Select(a => a.TextValue!)
+                        .Where(t => !string.IsNullOrWhiteSpace(t))
+                        .Distinct()
+                        .Take(5)
+                        .ToList();
+
+                    var actualOU = targetOU ?? filtered.Where(a => a.User != null && !string.IsNullOrWhiteSpace(a.User.OU))
+                                                 .Select(a => a.User!.OU)
+                                                 .FirstOrDefault();
+                    var actualOU2 = ou2 ?? filtered.Where(a => a.User != null && !string.IsNullOrWhiteSpace(a.User.OU2))
+                                                   .Select(a => a.User!.OU2)
+                                                   .FirstOrDefault();
+
+                    report.Add(new QuestionReportByFiltersVM
+                    {
+                        QuestionId = q.Id,
+                        QuestionText = q.Text ?? "No Question Text",
+                        QuestionFormId = q.QuestionFormId,
+                        FormTitle = q.QuestionForm?.Title ?? "No Form Title",
+                        TotalResponses = totalResponses,
+                        TotalScaleValue = totalScale,
+                        AverageScaleValue = avgScale,
+                        TextResponseCount = textAnswers.Count,
+                        SampleTextResponses = string.Join(" | ", sampleTexts),
+                        CompanyId = companyId,
+                        OU = actualOU,
+                        OU2 = actualOU2,
+                        AverageAge = Math.Round(avgAge, 2),
+                        AverageWorkExperience = Math.Round(avgWork, 2)
+                    });
+                }
+            }
+
+            _logger.LogInformation($"Generated filtered question reports: {report.Count} rows (companyId={companyId}, ou={ou ?? targetOU}, ou2={ou2})");
+            return report;
+        }
+
+        //public async Task<List<QuestionReportByFiltersVM>> GetQuestionReportByFiltersAsync(int? companyId = null, string? ou = null, string? ou2 = null)
+        //{
+        //    var questions = await _context.Questions
+        //        .Include(q => q.QuestionForm)
+        //        .Include(q => q.Answers)
+        //            .ThenInclude(a => a.User)
+        //        .ToListAsync();
+
+        //    var report = questions.Select(q =>
+        //    {
+        //        var answers = (q.Answers ?? new List<Answer>()).AsQueryable();
+        //        if (companyId.HasValue) answers = answers.Where(a => a.CompanyId == companyId.Value);
+        //        if (!string.IsNullOrWhiteSpace(ou)) answers = answers.Where(a => a.User != null && a.User.OU == ou);
+        //        if (!string.IsNullOrWhiteSpace(ou2)) answers = answers.Where(a => a.User != null && a.User.OU2 == ou2);
+
+        //        var filtered = answers.ToList();
+        //        var scaleAnswers = filtered.Where(a => a.ScaleValue.HasValue).ToList();
+        //        var textAnswers = filtered.Where(a => !string.IsNullOrWhiteSpace(a.TextValue)).ToList();
+
+        //        var totalResponses = filtered.Count;
+        //        var totalScale = scaleAnswers.Sum(a => a.ScaleValue!.Value);
+        //        var avgScale = totalResponses > 0 ? totalScale / (double)totalResponses : 0.0;
+
+        //        var avgAge = filtered.Where(a => a.User != null && a.User.Age > 0)
+        //                              .Select(a => a.User!.Age)
+        //                              .DefaultIfEmpty(0).Average();
+        //        var avgWork = filtered.Where(a => a.User != null && a.User.WorkExperience > 0)
+        //                              .Select(a => a.User!.WorkExperience)
+        //                              .DefaultIfEmpty(0).Average();
+
+        //        var sampleTexts = textAnswers
+        //            .Select(a => a.TextValue!)
+        //            .Where(t => !string.IsNullOrWhiteSpace(t))
+        //            .Distinct()
+        //            .Take(5)
+        //            .ToList();
+
+        //        return new QuestionReportByFiltersVM
+        //        {
+        //            QuestionId = q.Id,
+        //            QuestionText = q.Text ?? "No Question Text",
+        //            QuestionFormId = q.QuestionFormId,
+        //            FormTitle = q.QuestionForm?.Title ?? "No Form Title",
+        //            TotalResponses = totalResponses,
+        //            TotalScaleValue = totalScale,
+        //            AverageScaleValue = avgScale,
+        //            TextResponseCount = textAnswers.Count,
+        //            SampleTextResponses = string.Join(" | ", sampleTexts),
+        //            CompanyId = companyId,
+        //            OU = ou,
+        //            OU2 = ou2,
+        //            AverageAge = Math.Round(avgAge, 2),
+        //            AverageWorkExperience = Math.Round(avgWork, 2)
+        //        };
+        //    }).ToList();
+
+        //    _logger.LogInformation($"Generated filtered question reports: {report.Count} rows (companyId={companyId}, ou={ou}, ou2={ou2})");
+        //    return report;
+        ////}
     }
 }

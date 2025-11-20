@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using GlasAnketa.DataAccess.Interfaces;
 using GlasAnketa.Domain.Models;
 using GlasAnketa.Services.Interfaces;
@@ -73,7 +73,7 @@ namespace GlasAnketa.Services.Implementations
 
         public async Task<QuestionFormVM> GetFormWithQuestionsAsync(int formId)
         {
-            var qForm = await _questionFormRepository.GetActiveAsync(formId);
+            var qForm = await _questionFormRepository.GetQuestionFormByIdAsync(formId);
             return _mapper.Map<QuestionFormVM>(qForm);
         }
 
@@ -86,6 +86,13 @@ namespace GlasAnketa.Services.Implementations
 
             // Map fresh form with questions (loaded directly from DB)
             return _mapper.Map<QuestionFormVM>(nextForm);
+        }
+        public async Task<QuestionFormVM?> GetPreviousActiveFormAsync(int currentFormId)
+        {
+            var prevForm = await _questionFormRepository.GetPreviousActiveFormAsync(currentFormId);
+            if (prevForm == null)
+                return null;
+            return _mapper.Map<QuestionFormVM>(prevForm);
         }
 
         public async Task<bool> ToggleFormStatusAsync(int formId, bool isActive)

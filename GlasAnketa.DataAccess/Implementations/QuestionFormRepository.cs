@@ -1,4 +1,4 @@
-﻿using GlasAnketa.DataAccess.DataContext;
+using GlasAnketa.DataAccess.DataContext;
 using GlasAnketa.DataAccess.Interfaces;
 using GlasAnketa.Domain.Models;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +47,33 @@ namespace GlasAnketa.DataAccess.Implementations
             }
 
             // If we get here, there was no active form found in 1..13
+            return null;
+        }
+        public async Task<QuestionForm?> GetPreviousActiveFormAsync(int currentFormId)
+        {
+            if (currentFormId < 1 || currentFormId > 13)
+            {
+                currentFormId = 1;
+            }
+
+            var activeForms = await _context.QuestionForms
+                .AsNoTracking()
+                .Where(f => f.IsActive && f.Id >= 1 && f.Id <= 13)
+                .Include(f => f.Questions)
+                    .ThenInclude(q => q.QuestionType)
+                .ToListAsync();
+
+            if (!activeForms.Any())
+                return null;
+
+            for (int offset = 1; offset <= 12; offset++)
+            {
+                int candidateId = ((currentFormId - 1 - offset + 13) % 13) + 1; // previous in 1..13
+                var match = activeForms.FirstOrDefault(f => f.Id == candidateId);
+                if (match != null)
+                    return match;
+            }
+
             return null;
         }
         public async Task<QuestionForm> GetQuestionFormByIdAsync(int id)

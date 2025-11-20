@@ -39,6 +39,14 @@ namespace GlasAnketa.Controllers
                 }).ToList()
             };
 
+            // Check if there's a previous form to determine if Back button should be shown
+            var previousForm = await _questionFormService.GetPreviousActiveFormAsync(form.Id);
+            ViewBag.IsFirstForm = previousForm == null;
+
+            // Check if there's a next form to determine if Next/Skip buttons should be shown
+            var nextForm = await _questionFormService.GetNextActiveFormAsync(form.Id);
+            ViewBag.IsLastForm = nextForm == null;
+
             return View("Form", vm);
         }
         

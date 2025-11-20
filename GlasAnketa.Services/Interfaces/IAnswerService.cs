@@ -1,4 +1,4 @@
-﻿using GlasAnketa.ViewModels.Models;
+using GlasAnketa.ViewModels.Models;
 
 namespace GlasAnketa.Services.Interfaces
 {
@@ -9,6 +9,7 @@ namespace GlasAnketa.Services.Interfaces
         Task<List<AnswerVM>> GetFormAnswersAsync(int formId);
         Task SaveAnswersAsync(List<AnswerVM> answers);
         Task<Dictionary<int, AnswerSummaryVM>> GetAnswerSummariesAsync(int formId);
+        Task<bool> ClearAnswersAsync(int userId, int formId);
 
         /// <summary>
         /// Returns distinct user IDs that have at least one answer recorded.
