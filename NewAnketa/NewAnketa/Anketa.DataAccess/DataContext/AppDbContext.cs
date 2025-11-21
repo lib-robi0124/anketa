@@ -1,8 +1,8 @@
-﻿using GlasAnketa.DataAccess.Extensions;
-using GlasAnketa.Domain.Models;
+﻿using Anketa.Domain.Entities;
+using Anketa.DataAccess.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-namespace GlasAnketa.DataAccess.DataContext
+namespace Anketa.DataAccess.DataContext
 {
     public class AppDbContext : DbContext
     {
@@ -13,8 +13,7 @@ namespace GlasAnketa.DataAccess.DataContext
         public DbSet<QuestionType> QuestionTypes { get; set; }
         public DbSet<QuestionForm> QuestionForms { get; set; }
         public DbSet<Answer> Answers { get; set; }
-        public DbSet<ReportUser> ReportUsers { get; set; }
-        public DbSet<ReportRole> ReportRoles { get; set; }
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -76,12 +75,7 @@ namespace GlasAnketa.DataAccess.DataContext
                 .HasForeignKey(u => u.RoleId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            // ReportUser relationships
-            modelBuilder.Entity<ReportUser>()
-                .HasOne(ru => ru.ReportRole)
-                .WithMany(rr => rr.Users)
-                .HasForeignKey(ru => ru.ReportRoleId)
-                .OnDelete(DeleteBehavior.NoAction);
+            
         }
       
     }

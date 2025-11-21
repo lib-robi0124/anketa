@@ -1,34 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\",
+  "WorkspaceRootPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\questionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|solutionrelative:anketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|solutionrelative:anketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\educationlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\educationlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\positiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\positiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QuestionType.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\QuestionType.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\QuestionType.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\QuestionType.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\QuestionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EducationLevel.cs",
+              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\EducationLevel.cs",
+              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\EducationLevel.cs",
+              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\EducationLevel.cs",
+              "RelativeToolTip": "Anketa.Domain\\Enums\\EducationLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:49:38.093Z",
+              "WhenOpened": "2025-11-21T12:32:26.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "QuestionForm.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\QuestionForm.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\QuestionForm.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\QuestionForm.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\QuestionForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
+              "Title": "PositionType.cs",
+              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\PositionType.cs",
+              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\PositionType.cs",
+              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\PositionType.cs",
+              "RelativeToolTip": "Anketa.Domain\\Enums\\PositionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:48:52.925Z",
+              "WhenOpened": "2025-11-21T12:31:14.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Question.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Question.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\Question.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Question.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RoleType.cs",
+              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\RoleType.cs",
+              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\RoleType.cs",
+              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\RoleType.cs",
+              "RelativeToolTip": "Anketa.Domain\\Enums\\RoleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:48:07.278Z",
+              "WhenOpened": "2025-11-21T11:39:21.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Answer.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Answer.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\Answer.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Answer.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\Answer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "RelativeToolTip": "Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAApwE0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:46:31.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataSeedExtensions.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeDocumentMoniker": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeToolTip": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:24:25.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\Role.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\Role.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:22:37.257Z",
+              "WhenOpened": "2025-11-21T08:17:05.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Anketa.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "DataSeedExtensions.cs",
+              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "RelativeDocumentMoniker": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "RelativeToolTip": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "ViewState": "AgIAAH0GAAAAAAAAAAAAAJMGAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T18:24:17.672Z",
+              "WhenOpened": "2025-11-20T19:24:25.706Z",
               "EditorCaption": ""
             }
           ]

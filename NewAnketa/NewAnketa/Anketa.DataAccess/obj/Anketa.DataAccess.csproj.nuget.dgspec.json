@@ -1,23 +1,192 @@
 {
   "format": 1,
   "restore": {
-    "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj": {}
+    "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj": {
+    "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj",
+        "projectUniqueName": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj",
         "projectName": "Anketa.DataAccess",
-        "projectPath": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\obj\\",
+        "projectPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Anketa.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Anketa.Domain.csproj": {
+                "projectPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Anketa.Domain.csproj"
+              },
+              "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\Anketa.ViewModels.csproj": {
+                "projectPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\Anketa.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Anketa.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Anketa.Domain.csproj",
+        "projectName": "Anketa.Domain",
+        "projectPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Anketa.Domain.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\Anketa.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\Anketa.ViewModels.csproj",
+        "projectName": "Anketa.ViewModels",
+        "projectPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\Anketa.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Robertr2\\.nuget\\packages\\",
+        "outputPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Robertr2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

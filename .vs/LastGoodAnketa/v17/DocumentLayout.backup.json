@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\qinshift\\anketa\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D60AE9-4426-48D4-88E1-6133A60010B6}|GlasAnketa.Domain\\GlasAnketa.Domain.csproj|c:\\qinshift\\anketa\\glasanketa.domain\\models\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D60AE9-4426-48D4-88E1-6133A60010B6}|GlasAnketa.Domain\\GlasAnketa.Domain.csproj|solutionrelative:glasanketa.domain\\models\\questiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|c:\\qinshift\\anketa\\glasanketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|solutionrelative:glasanketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestionType.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa.Domain\\Models\\QuestionType.cs",
+              "RelativeDocumentMoniker": "GlasAnketa.Domain\\Models\\QuestionType.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa.Domain\\Models\\QuestionType.cs",
+              "RelativeToolTip": "GlasAnketa.Domain\\Models\\QuestionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:49:15.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataSeedExtensions.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "RelativeDocumentMoniker": "GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "RelativeToolTip": "GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:28:36.618Z",
+              "EditorCaption": ""
             }
           ]
         }
