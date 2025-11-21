@@ -1,6 +1,6 @@
-using GlasAnketa.Domain.Models;
+using Anketa.Domain.Entities;
 
-namespace GlasAnketa.DataAccess.Interfaces
+namespace Anketa.DataAccess.Interfaces
 {
     public interface IAnswerRepository : IRepository<Answer>
     {

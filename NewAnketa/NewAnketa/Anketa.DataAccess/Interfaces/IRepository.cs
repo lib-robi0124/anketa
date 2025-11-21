@@ -1,4 +1,4 @@
-﻿namespace GlasAnketa.DataAccess.Interfaces
+﻿namespace Anketa.DataAccess.Interfaces
 {
     public interface IRepository<T> where T : class
     {

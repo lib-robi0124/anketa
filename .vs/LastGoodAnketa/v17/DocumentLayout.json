@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\",
+  "WorkspaceRootPath": "C:\\qinshift\\anketa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6D60AE9-4426-48D4-88E1-6133A60010B6}|GlasAnketa.Domain\\GlasAnketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\glasanketa.domain\\models\\reportuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6D60AE9-4426-48D4-88E1-6133A60010B6}|GlasAnketa.Domain\\GlasAnketa.Domain.csproj|solutionrelative:glasanketa.domain\\models\\reportuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\glasanketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|solutionrelative:glasanketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\glasanketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E474E11A-314E-4405-BFA7-894DD363A8D6}|GlasAnketa.DataAccess\\GlasAnketa.DataAccess.csproj|solutionrelative:glasanketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45DF44FF-CCDA-44A3-B839-A78F72FA882B}|GlasAnketa\\GlasAnketa.csproj|c:\\qinshift\\anketa\\glasanketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DF44FF-CCDA-44A3-B839-A78F72FA882B}|GlasAnketa\\GlasAnketa.csproj|solutionrelative:glasanketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReportUser.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.Domain\\Models\\ReportUser.cs",
-              "RelativeDocumentMoniker": "GlasAnketa.Domain\\Models\\ReportUser.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.Domain\\Models\\ReportUser.cs",
-              "RelativeToolTip": "GlasAnketa.Domain\\Models\\ReportUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa\\Program.cs",
+              "RelativeDocumentMoniker": "GlasAnketa\\Program.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa\\Program.cs",
+              "RelativeToolTip": "GlasAnketa\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:36:55.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "GlasAnketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "RelativeToolTip": "GlasAnketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:25:35.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataSeedExtensions.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeDocumentMoniker": "GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeToolTip": "GlasAnketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:28:36.618Z",
+              "WhenOpened": "2025-11-21T20:52:34.28Z",
               "EditorCaption": ""
             }
           ]

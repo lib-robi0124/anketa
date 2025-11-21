@@ -1,0 +1,15 @@
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\bin\Debug\net8.0\Anketa.Domain.deps.json
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\bin\Debug\net8.0\Anketa.Domain.runtimeconfig.json
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\bin\Debug\net8.0\Anketa.Domain.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\bin\Debug\net8.0\Anketa.Domain.pdb
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.AssemblyInfoInputs.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.AssemblyInfo.cs
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.csproj.CoreCompileInputs.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.sourcelink.json
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\refint\Anketa.Domain.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.pdb
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.genruntimeconfig.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\ref\Anketa.Domain.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.Domain\obj\Debug\net8.0\Anketa.Domain.csproj.AssemblyReference.cache

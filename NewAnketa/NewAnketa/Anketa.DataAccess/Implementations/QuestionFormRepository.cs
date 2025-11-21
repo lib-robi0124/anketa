@@ -1,9 +1,10 @@
-using GlasAnketa.DataAccess.DataContext;
-using GlasAnketa.DataAccess.Interfaces;
-using GlasAnketa.Domain.Models;
+
+using Anketa.DataAccess.DataContext;
+using Anketa.DataAccess.Interfaces;
+using Anketa.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace GlasAnketa.DataAccess.Implementations
+namespace Anketa.DataAccess.Implementations
 {
     public class QuestionFormRepository : Repository<QuestionForm>, IQuestionFormRepository
     {

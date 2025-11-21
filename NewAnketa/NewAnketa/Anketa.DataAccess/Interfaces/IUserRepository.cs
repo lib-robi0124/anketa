@@ -1,12 +1,12 @@
-﻿using GlasAnketa.Domain.Models;
+﻿using Anketa.Domain.Entities;
 
-namespace GlasAnketa.DataAccess.Interfaces
+namespace Anketa.DataAccess.Interfaces
 {
     public interface IUserRepository : IRepository<User>
     {
         Task<User> GetByCompanyIdAsync(int companyId);
         Task<User> AuthenticateAsync(int companyId, string password);
-        Task<string> GetUserOUAsync(int userId);
+        Task<string> GetUserDepartmentAsync(int userId);
 
         // User management helpers
         Task<List<User>> GetAllWithRolesAsync();

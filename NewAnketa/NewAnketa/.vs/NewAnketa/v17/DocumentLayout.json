@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\",
+  "WorkspaceRootPath": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|solutionrelative:anketa.dataaccess\\extensions\\dataseedextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05B2C50F-6C27-4418-A048-D8DB3593E1B3}|Anketa\\Anketa.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05B2C50F-6C27-4418-A048-D8DB3593E1B3}|Anketa\\Anketa.csproj|solutionrelative:anketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|solutionrelative:anketa.dataaccess\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\educationlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\educationlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\positiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\positiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|d:\\proekt-office\\officeapps\\gitanketa\\anketa\\newanketa\\newanketa\\anketa.domain\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFB841-E783-4764-A19A-3E3CF485ADC7}|Anketa.Domain\\Anketa.Domain.csproj|solutionrelative:anketa.domain\\enums\\roletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EducationLevel.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\EducationLevel.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\EducationLevel.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\EducationLevel.cs",
-              "RelativeToolTip": "Anketa.Domain\\Enums\\EducationLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa\\Program.cs",
+              "RelativeDocumentMoniker": "Anketa\\Program.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa\\Program.cs",
+              "RelativeToolTip": "Anketa\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:32:26.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PositionType.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\PositionType.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\PositionType.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\PositionType.cs",
-              "RelativeToolTip": "Anketa.Domain\\Enums\\PositionType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:31:14.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleType.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\RoleType.cs",
-              "RelativeDocumentMoniker": "Anketa.Domain\\Enums\\RoleType.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.Domain\\Enums\\RoleType.cs",
-              "RelativeToolTip": "Anketa.Domain\\Enums\\RoleType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T11:39:21.954Z",
+              "WhenOpened": "2025-11-21T20:52:08.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Anketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\DataContext\\AppDbContext.cs",
               "RelativeToolTip": "Anketa.DataAccess\\DataContext\\AppDbContext.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAApwE0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T08:17:05.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataSeedExtensions.cs",
-              "DocumentMoniker": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeDocumentMoniker": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ToolTip": "D:\\proekt-office\\officeApps\\gitanketa\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "RelativeToolTip": "Anketa.DataAccess\\Extensions\\DataSeedExtensions.cs",
-              "ViewState": "AgIAAM4GAAAAAAAAAAAAAOIGAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T19:24:25.706Z",
+              "WhenOpened": "2025-11-21T20:47:08.236Z",
               "EditorCaption": ""
             }
           ]

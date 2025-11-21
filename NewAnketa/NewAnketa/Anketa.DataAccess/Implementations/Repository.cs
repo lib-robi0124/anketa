@@ -1,8 +1,9 @@
-﻿using GlasAnketa.DataAccess.DataContext;
-using GlasAnketa.DataAccess.Interfaces;
+﻿
+using Anketa.DataAccess.DataContext;
+using Anketa.DataAccess.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace GlasAnketa.DataAccess.Implementations
+namespace Anketa.DataAccess.Implementations
 {
     public class Repository<T> : IRepository<T> where T : class
     {

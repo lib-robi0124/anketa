@@ -1,0 +1,16 @@
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\bin\Debug\net8.0\Anketa.ViewModels.deps.json
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\bin\Debug\net8.0\Anketa.ViewModels.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\bin\Debug\net8.0\Anketa.ViewModels.pdb
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.AssemblyInfoInputs.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.AssemblyInfo.cs
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.csproj.CoreCompileInputs.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.sourcelink.json
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\refint\Anketa.ViewModels.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.pdb
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\ref\Anketa.ViewModels.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\bin\Debug\net8.0\Anketa.Domain.dll
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\bin\Debug\net8.0\Anketa.Domain.pdb
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.ViewModels.csproj.AssemblyReference.cache
+C:\qinshift\anketa\NewAnketa\NewAnketa\Anketa.ViewModels\obj\Debug\net8.0\Anketa.V.072A719E.Up2Date
