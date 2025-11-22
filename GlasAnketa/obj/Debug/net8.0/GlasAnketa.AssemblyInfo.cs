@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GlasAnketa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a4dc16a05344f3162de74fb77c35429570ac690")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d4490bd46c44eef7d64ad53e707eb40551d2e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("GlasAnketa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GlasAnketa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

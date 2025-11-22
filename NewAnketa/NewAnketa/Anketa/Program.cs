@@ -25,6 +25,7 @@ builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
 builder.Services.AddScoped<IQuestionFormRepository, QuestionFormRepository>();
 builder.Services.AddScoped<IAnswerRepository, AnswerRepository>();
 
+builder.Services.AddAutoMapper(cfg => cfg.AddProfile<UserMappingProfile>());
 
 
 var app = builder.Build();
@@ -42,7 +43,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// Add authentication & authorization middleware (ORDER IS IMPORTANT!)
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

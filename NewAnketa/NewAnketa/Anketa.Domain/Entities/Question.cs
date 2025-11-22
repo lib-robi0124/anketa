@@ -4,7 +4,8 @@
     {
         public int Id { get; set; }
         public string Text { get; set; }
-        public int UserId { get; set; } // Admin user who created the question
+        //public int UserId { get; set; } 
+        public int CompanyId { get; set; }
         public User User { get; set; }
         public int QuestionTypeId { get; set; }
         public QuestionType QuestionType { get; set; }

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|c:\\qinshift\\anketa\\newanketa\\newanketa\\anketa.dataaccess\\interfaces\\ianswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E94FC08-4906-4BDA-B5BB-89F1C75B6EB9}|Anketa.DataAccess\\Anketa.DataAccess.csproj|solutionrelative:anketa.dataaccess\\interfaces\\ianswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAnswerRepository.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Interfaces\\IAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Anketa.DataAccess\\Interfaces\\IAnswerRepository.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\NewAnketa\\NewAnketa\\Anketa.DataAccess\\Interfaces\\IAnswerRepository.cs",
+              "RelativeToolTip": "Anketa.DataAccess\\Interfaces\\IAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T11:53:46.238Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\qinshift\\anketa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F6CC53-6187-416D-B8EB-1ADCE3816A76}|GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj|c:\\qinshift\\anketa\\glasanketa.viewmodels\\models\\registeruservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F6CC53-6187-416D-B8EB-1ADCE3816A76}|GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj|solutionrelative:glasanketa.viewmodels\\models\\registeruservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F6CC53-6187-416D-B8EB-1ADCE3816A76}|GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj|c:\\qinshift\\anketa\\glasanketa.viewmodels\\models\\usercredentialsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F6CC53-6187-416D-B8EB-1ADCE3816A76}|GlasAnketa.ViewModels\\GlasAnketa.ViewModels.csproj|solutionrelative:glasanketa.viewmodels\\models\\usercredentialsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45DF44FF-CCDA-44A3-B839-A78F72FA882B}|GlasAnketa\\GlasAnketa.csproj|c:\\qinshift\\anketa\\glasanketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45DF44FF-CCDA-44A3-B839-A78F72FA882B}|GlasAnketa\\GlasAnketa.csproj|solutionrelative:glasanketa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RegisterUserVM.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa.ViewModels\\Models\\RegisterUserVM.cs",
-              "RelativeDocumentMoniker": "GlasAnketa.ViewModels\\Models\\RegisterUserVM.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa.ViewModels\\Models\\RegisterUserVM.cs",
-              "RelativeToolTip": "GlasAnketa.ViewModels\\Models\\RegisterUserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa\\Program.cs",
+              "RelativeDocumentMoniker": "GlasAnketa\\Program.cs",
+              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa\\Program.cs",
+              "RelativeToolTip": "GlasAnketa\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T20:32:52.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserCredentialsVM.cs",
-              "DocumentMoniker": "C:\\qinshift\\anketa\\GlasAnketa.ViewModels\\Models\\UserCredentialsVM.cs",
-              "RelativeDocumentMoniker": "GlasAnketa.ViewModels\\Models\\UserCredentialsVM.cs",
-              "ToolTip": "C:\\qinshift\\anketa\\GlasAnketa.ViewModels\\Models\\UserCredentialsVM.cs",
-              "RelativeToolTip": "GlasAnketa.ViewModels\\Models\\UserCredentialsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T20:29:33.87Z",
+              "WhenOpened": "2025-11-21T20:52:34.28Z",
               "EditorCaption": ""
             }
           ]

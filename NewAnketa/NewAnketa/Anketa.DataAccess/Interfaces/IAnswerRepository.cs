@@ -12,10 +12,6 @@ namespace Anketa.DataAccess.Interfaces
         Task SaveAnswersAsync(List<Answer> answers);
         Task<Dictionary<int, AnswerSummary>> GetAnswerSummariesAsync(int formId);
         Task<bool> ClearAnswersAsync(int userId, int formId);
-
-        /// <summary>
-        /// Returns distinct user IDs that have at least one answer recorded.
-        /// </summary>
         Task<List<int>> GetUserIdsWithAnyAnswersAsync();
     }
 }
